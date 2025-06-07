@@ -4,8 +4,8 @@
 **Building Bridges, Breaking Chains**  
 **A Global Protocol for Civic Power, AI Trust & Decentralized Action**
 
-![QR Code – Official Site](./assets/QR_CODE.png)
-
+ [qr- Web Site (png)](assets/qr- Web Site -ATO.png)
+ 
 ---
 
 ## Official Links
