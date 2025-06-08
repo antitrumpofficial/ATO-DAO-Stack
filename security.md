@@ -1,6 +1,6 @@
 # ATO Security Policy
 
-**Effective Date:** June 2, 2025  
+**Effective Date:** June 1, 2025  
 **Maintained by:** ATO DAO Security Council
 
 ---
