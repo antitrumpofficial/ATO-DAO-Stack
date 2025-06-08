@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover.png" alt="ATO DAO Stack Cover" width="800"/>
+</p>
+
 ## Anti Trump Official (ATO)
 
 
@@ -8,13 +12,18 @@
 
 ---
 
-## Official Links
+##  Official Links
 
-- Website: [https://antitrumpofficial.com](https://antitrumpofficial.com)  
-- GitHub: [https://github.com/antitrumpofficial](https://github.com/antitrumpofficial)  
-- DAO Voting: [https://snapshot.org/#/ato.eth](https://snapshot.org/#/ato.eth)  
-- Proposal Submission: [https://dao.antitrumpofficial.com/submit](https://dao.antitrumpofficial.com/submit)  
-- Contact: [dao@antitrumpofficial.com](mailto:dao@antitrumpofficial.com)
+- **Website:** [antitrumpofficial.com](https://antitrumpofficial.com)
+- **GitHub:** [github.com/antitrumpofficial](https://github.com/antitrumpofficial)
+- **Snapshot DAO Voting:** [snapshot.org/#/ato.eth](https://snapshot.org/#/ato.eth)
+- **Proposal Submission:** [dao.antitrumpofficial.com/submit](https://dao.antitrumpofficial.com/submit)
+- **X (Twitter):** [@ATO_Protocol](https://x.com/ATO_Protocol)
+- **Reddit:** [r/ATO_Protocol](https://www.reddit.com/r/ATO_Protocol/)
+- **Discord:** [Join Discord](https://discord.gg/Zaf75W3J)
+- **Telegram:** [AntiTrumpOfficial](https://t.me/AntiTrumpOfficial)
+- **Contact (DAO):** [dao@antitrumpofficial.com](mailto:dao@antitrumpofficial.com)
+- **Contact (Info):** [info@antitrumpofficial.com](mailto:info@antitrumpofficial.com)
 
 ---
 
