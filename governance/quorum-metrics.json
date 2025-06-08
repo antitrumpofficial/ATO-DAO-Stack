@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2025-06-02",
+  "circulatingSupply": 120000000,
+  "requiredQuorumPercent": 10,
+  "quorumHistory": [
+    {
+      "proposalId": "ATO-DAO-2025-001",
+      "snapshotBlock": 41270440,
+      "requiredQuorum": 12000000,
+      "actualParticipation": 13789450,
+      "status": "Met"
+    },
+    {
+      "proposalId": "ATO-DAO-2025-002",
+      "snapshotBlock": 41271213,
+      "requiredQuorum": 12000000,
+      "actualParticipation": 11925000,
+      "status": "Not Met"
+    },
+    {
+      "proposalId": "ATO-DAO-2025-003",
+      "snapshotBlock": 41272197,
+      "requiredQuorum": 12000000,
+      "actualParticipation": 14178500,
+      "status": "Met"
+    },
+    {
+      "proposalId": "ATO-DAO-2025-004",
+      "snapshotBlock": 41273453,
+      "requiredQuorum": 12000000,
+      "actualParticipation": 15422000,
+      "status": "Met"
+    }
+  ]
+}

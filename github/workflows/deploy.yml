@@ -1,0 +1,45 @@
+# .github/workflows/deploy.yml
+
+name: ATO Smart Contract Deployment & Verify
+
+description: Build + Deploy + Verify contracts on Etherscan (if applicable)
+
+on:
+  workflow_dispatch:
+    inputs:
+      contract_name:
+        description: 'Contract to verify'
+        required: true
+      contract_address:
+        description: 'Deployed Contract Address'
+        required: true
+      constructor_args:
+        description: 'Constructor arguments (comma-separated)'
+        required: false
+
+jobs:
+  verify-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Compile Contracts
+        run: npx hardhat compile
+
+      - name: Verify Contract on Etherscan
+        env:
+          ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
+        run: |
+          npx hardhat verify \
+            --network mainnet \
+            ${{ github.event.inputs.contract_address }} \
+            ${{ github.event.inputs.constructor_args || '' }}

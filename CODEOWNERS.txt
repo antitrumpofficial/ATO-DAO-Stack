@@ -1,0 +1,16 @@
+# CODEOWNERS – ATO Project
+
+# Core Development Team
+* @ato-core-devs
+
+# Smart Contract Security Team
+* @ato-security-team
+
+# Marketing & Community Engagement Team
+* @ato-marketing-team
+
+# Tokenomics & Economic Strategy Team
+* @ato-economics-team
+
+# Civic Impact & NGO Integration Team
+* @ato-social-team

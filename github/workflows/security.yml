@@ -1,0 +1,28 @@
+# .github/workflows/security.yml
+
+name: ATO Smart Contract Security Audit
+
+description: Run Slither static analysis on every push to main
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  slither-analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Python & Slither
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3-pip -y
+          pip3 install slither-analyzer
+
+      - name: Run Slither Static Analysis
+        run: slither ./contracts --filter-paths "node_modules"

@@ -1,0 +1,2109 @@
+check-roles.js:30
+      ethers.constants.HashZero // DEFAULT_ADMIN_ROLE
+      ^^^^^^
+
+SyntaxError: Unexpected identifier 'ethers'
+    at wrapSafe (node:internal/modules/cjs/loader:1662:18)
+    at Module._compile (node:internal/modules/cjs/loader:1704:20)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+
+--- Checking roles for ATO at 0xA04973912507064d0E7130b78eb527b68ca04E8A ---
+TypeError: incorrect data length (argument="", value="0x7eB5D199BaB7BA2b6BbEeF7D07Eea62f2B838548", code=INVALID_ARGUMENT, version=6.14.3)
+    at makeError (D:\ato-protocol\node_modules\ethers\src.ts\utils\errors.ts:691:21)
+    at assert (D:\ato-protocol\node_modules\ethers\src.ts\utils\errors.ts:719:25)
+    at assertArgument (D:\ato-protocol\node_modules\ethers\src.ts\utils\errors.ts:731:5)
+    at FixedBytesCoder._throwError (D:\ato-protocol\node_modules\ethers\src.ts\abi\coders\abstract-coder.ts:389:23)
+    at FixedBytesCoder.encode (D:\ato-protocol\node_modules\ethers\src.ts\abi\coders\fixed-bytes.ts:30:47)
+    at D:\ato-protocol\node_modules\ethers\src.ts\abi\coders\array.ts:64:19
+    at Array.forEach (<anonymous>)
+    at pack (D:\ato-protocol\node_modules\ethers\src.ts\abi\coders\array.ts:47:12)
+    at TupleCoder.encode (D:\ato-protocol\node_modules\ethers\src.ts\abi\coders\tuple.ts:62:20)
+    at AbiCoder.encode (D:\ato-protocol\node_modules\ethers\src.ts\abi\abi-coder.ts:195:15) {
+  code: 'INVALID_ARGUMENT',
+  argument: '',
+  value: '0x7eB5D199BaB7BA2b6BbEeF7D07Eea62f2B838548',
+  shortMessage: 'incorrect data length'
+}
+
+
+--- Checking roles for ATO at 0xA04973912507064d0E7130b78eb527b68ca04E8A ---
+HardhatError: HH110: Invalid JSON-RPC response received:
+
+<!doctype html>
+<html id="html" lang="en">
+<head><title>
+         BNB Smart Chain (BNB) Blockchain Explorer
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="format-detection" content="telephone=no" />
+    <meta name="Description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /> <meta name="author" content="BscScan.com" /> <meta name="keywords" content="binance, explorer, BNB, search, blockchain, crypto, currency" /> <meta property="og:title" content=" BNB Smart Chain (BNB) Blockchain Explorer" /> <meta property="og:description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /> <meta property="og:type" content="website" /> <meta property="og:site_name" content="BNB Smart Chain Explorer" /> <meta property="og:url" content="https://bscscan.com/" /> <meta property="og:image" content="https://bscscan.com/assets/bsc/images/og.jpg?v=25.5.5.1" /> <meta property="og:image:alt" content="Visit BscScan.com" /> <meta name="twitter:card" content="summary" /> <meta name="twitter:title" content=" BNB Smart Chain (BNB) Blockchain Explorer" /> <meta property="twitter:description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /> <meta name="twitter:site" content="@bscscan" /> <meta property="twitter:image" content="https://bscscan.com/assets/bsc/images/og.jpg?v=25.5.5.1" /> <meta name="twitter:image:alt" content="Visit BscScan.com" />
+<link rel="shortcut icon" href="/assets/generic/html/favicon.ico" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PQY6J2Q8EP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config','G-PQY6J2Q8EP', { 'anonymize_ip': true });
+    </script>
+
+
+    <script>
+        //Search box text ad
+        var availableAd = [];
+        var gotAd = [];
+
+
+        availableAd = ["<div class='p-2'><a href='https://goto.bscscan.com/rd/RYX43GDE1IC5HRW1X1DHKETDJ' rel='nofollow' target='_blank' data-bs-toggle='tooltip' data-bs-trigger='hover' title='Links to an External Advertiser site' class='search-panel-ads d-flex align-items-center p-2 rounded'><div class='me-2'><img width='22' src='/images/gen/etoro_20.png' alt='eToro'></div><div class='text-truncate'><h6 class='d-flex align-items-center fs-sm text-dark mb-0'><div class='text-truncate me-2'>eToro - 100+ cryptoassets</div><span class='d-none d-sm-inline-block small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Sponsored</span><span class='d-inline-block d-sm-none small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Ad</span></h6></div></a></div>", "<div class='p-2'><a href='https://goto.bscscan.com/rd/NSY8Q1TUH2HW8IKIDA23Y3VR7' rel='nofollow' target='_blank' data-bs-toggle='tooltip' data-bs-trigger='hover' title='Links to an External Advertiser site' class='search-panel-ads d-flex align-items-center p-2 rounded'><div class='me-2'><img width='22' src='/images/gen/betpanda_2_20.png' alt='Ads'></div><div class='text-truncate'><h6 class='d-flex align-items-center fs-sm text-dark mb-0'><div class='text-truncate me-2'>Betpanda - Anon crypto casino with instant wd's & 10% weekly cashback.</div><span class='d-none d-sm-inline-block small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Sponsored</span><span class='d-inline-block d-sm-none small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Ad</span></h6></div></a></div>", "<div class='p-2'><a href='https://goto.bscscan.com/rd/29SHA1672YEQK9NGSQ4B35PMR' rel='nofollow' target='_blank' data-bs-toggle='tooltip' data-bs-trigger='hover' title='Links to an External Advertiser site' class='search-panel-ads d-flex align-items-center p-2 rounded'><div class='me-2'><img width='22' src='/images/gen/lightchainai_20.png' alt='Lightchain'></div><div class='text-truncate'><h6 class='d-flex align-items-center fs-sm text-dark mb-0'><div class='text-truncate me-2'>Lightchain Protocol AI Presale Live</div><span class='d-none d-sm-inline-block small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Sponsored</span><span class='d-inline-block d-sm-none small bg-white text-muted rounded-1 border px-2 py-1 ms-1'>Ad</span></h6></div></a></div>"];
+        gotAd = ["ShowAds                                       "];
+
+    </script>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/css/all.min.css?v=25.5.5.1">
+    <link rel="stylesheet" href="/assets/vendor/autocomplete/dist/css/autocomplete.min.css?v=25.5.5.1" />
+
+    <link rel="stylesheet" href="/assets/css/theme.min.css?v=25.5.5.1">
+    <link rel="stylesheet" href="/assets/bsc/css/bscscan.min.css?v=25.5.5.1">
+    <link rel="stylesheet" href="/assets/css/custom.css?v=25.5.5.1">
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js?v=25.5.5.1"></script>
+    <script type="text/javascript" src="/jss/blockies.js?v=25.5.5.1"></script>
+
+    <script type="text/javascript" src="/assets/js/theme-appearance.js?v=25.5.5.1"></script>
+
+    <style>
+        .autolink-safari a {
+            pointer-events: none !important;
+            text-decoration: none !important;
+            color: inherit !important;
+        }
+
+        #masterNoticeBar div.alert a{
+            color:#fff !important;
+            text-decoration: underline !important;
+        }
+
+        .word-break{word-break: break-all !important;}
+        .min-with50{min-width: 50px !important;}
+    </style>
+
+    <style> .dvvni7lnty2 { -ms-flex-pack: center; justify-content: center; } .atvdaqkk5dz { border-top: 1px solid #e7eaf3 !important; } body.dark-mode .atvdaqkk5dz { border-color: #18365b !important; } @media (min-width: 992px) { .buumwaui8mv { display: block !important; } } @media (min-width: 992px) { .csatxryqurd { display: inline-block !important; } }  </style>
+    <style type = "text/css">#div-advert {line-height: 1.7}@media (max-width: 667px) {#div-advert {min-height: 62px;}}@media (max-width: 767px) {#div-advert {padding-bottom: 20px;}}</style>
+    <style>
+        .wrapper {
+            background-color: #fff !important;
+        }
+
+        [data-bs-theme="light"],
+        [data-bs-theme=auto] {
+            --bg-img-wave: url(./assets/svg/patterns/waves.svg);
+        }
+
+        [data-bs-theme="dark"],
+        [data-bs-theme="dim"] {
+            --bg-img-wave: url(./assets/svg/patterns/waves-light.svg);
+        }
+
+        #cardSpinnerWrapper {
+            background: none;
+            color: #666666;
+            opacity: 1;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            height: 160px;
+            z-index: 5000;
+            display: none;
+        }
+
+        #mainOverlay {
+            color: #666666;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            float: left;
+            text-align: center;
+            padding-top: 20%;
+            display: none;
+        }
+
+        @media (max-width: 767.98px) {
+            .card-header-title > .hash-tag {
+                max-width: 7rem !important;
+            }
+        }
+    </style>
+<meta name="description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /></head>
+
+<body id="body" class="d-flex flex-column min-vh-100">
+
+    <section id="masterNoticeBar">
+        <!--Maintenance Message-->
+
+        <!--End Maintenance Message-->
+    </section>
+
+    <!-- ========== TOPBAR ========== -->
+    <section id="masterTopBar" class="d-none d-lg-block sticky-top bg-white border-bottom py-1">
+
+        <div class="container-xxl d-flex align-items-center justify-content-between">
+
+            <div id="ethPrice" class="d-flex align-items-sm-center gap-4 w-100 fs-sm">
+                <div class="text-muted"><span class="text-muted">BNB Price:</span> <a href='/chart/bnbprice'>$663.00</a><span data-bs-toggle="tooltip" data-bs-placement="top" title="Changes in the last 24 hours"><span class='text-success'> (+0.17%)</span></span></div><div class='text-muted '><i class="fad fa-gas-pump me-1"></i> Gas: <span id='spanGasTooltip' data-bs-toggle='tooltip' data-bs-html='true'><a href='/gastracker'><span class='gasPricePlaceHolder'>0.1</span> GWei</a></span></div>
+                </div>
+
+            <div class="d-flex justify-content-end align-items-center gap-2">
+
+
+                <div id="divThemeSetting" class="dropdown">
+                    <button class="btn btn-lg btn-white text-primary content-center" type="button" id="dropdownMenuTopbarSettings" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false" style="width: 2.375rem; height: 2.375rem;">
+                        <span class="theme-btn-main"><i class="far fa-sun-bright theme-icon-active" data-href="#fa-sun-bright"></i></span>
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuTopbarSettings">
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn active" data-bs-theme-value="light" onclick="setThemeMode('light');">
+                                <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dim" onclick="setThemeMode('dim');">
+                                <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dark" onclick="setThemeMode('dark');">
+                                <i class="far fa-moon fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                            </button>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="/settings">
+                                <i class="far fa-gear fa-fw dropdown-item-icon me-1"></i> Site Settings <i class="far fa-arrow-right ms-1"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="divTestNet" class="dropdown">
+                    <button class="btn btn-lg btn-white content-center p-0" type="button" id="dropdownTopbarNetworks" data-bs-toggle="dropdown" aria-expanded="false" style="width: 2.375rem; height: 2.375rem;">
+                        <img width="18" data-img-theme="light" src="/assets/bsc/images/svg/logos/chain-light.svg?v=25.5.5.1" alt="BNB Smart Chain Logo">
+                        <img width="18" data-img-theme="dim" src="/assets/bsc/images/svg/logos/chain-dim.svg?v=25.5.5.1" alt="BNB Smart Chain Logo">
+                        <img width="18" data-img-theme="dark" src="/assets/bsc/images/svg/logos/chain-dark.svg?v=25.5.5.1" alt="BNB Smart Chain Logo">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownTopbarNetworks">
+
+                        <li><a class="dropdown-item active" href="https://bscscan.com">Bsc Mainnet</a></li><li><a class="dropdown-item" href="https://opbnb.bscscan.com">opBNB Mainnet</a></li>
+                        <li><hr class="dropdown-divider"></li><li><a class="dropdown-item" href="https://testnet.bscscan.com">Bsc Testnet</a></li><li><a class="dropdown-item" href="https://opbnb-testnet.bscscan.com">opBNB Testnet</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== TOPBAR ========== -->
+
+    <!-- ========== HEADER ========== -->
+    <header id="masterHeader" class="header border-bottom d-print-none">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0">
+            <div class="container-xxl position-relative">
+                <a class="navbar-brand" href="/" target="_parent" aria-label="BscScan">
+
+                    <img width="135" data-img-theme="light" src="/assets/bsc/images/svg/logos/logo-light.svg?v=25.5.5.1" alt="BscScan Logo">
+                    <img width="135" data-img-theme="dim" src="/assets/bsc/images/svg/logos/logo-dim.svg?v=25.5.5.1" alt="BscScan Logo">
+                    <img width="135" data-img-theme="dark" src="/assets/bsc/images/svg/logos/logo-dark.svg?v=25.5.5.1" alt="BscScan Logo">
+                </a>
+
+                <div class="d-flex align-items-center gap-4">
+
+                    <a class="link-dark d-block d-lg-none" href="/login">
+                        <i class="far fa-user-circle me-1"></i> Sign In
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-1 gap-lg-0 pt-4 pt-lg-0">
+                        <li class="nav-item">
+                            <a href="/" id="LI_default" class="nav-link active" aria-current="page">
+                                Home
+                            </a>
+                        </li>
+
+
+                        <!-- Blockchain -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_blockchain" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blockchain</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+
+                                <li>
+                                    <a href="/txs" id="LI12" class="dropdown-item">
+                                        Transactions
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/txsPending" id="LI16" class="dropdown-item">
+                                        Pending Transactions
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/txsInternal" id="LI14" class="dropdown-item">
+                                        Contract Internal Transactions
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/txsBlobs" id="LI_txsBlobs" class="dropdown-item">
+                                        View Blobs
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/txsAA" id="LITxsAA" class="dropdown-item">
+                                        AA Transactions <span class="badge border bg-light text-muted">Beta</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/blocks" id="LI_blocks" class="dropdown-item">
+                                        View Blocks
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/blocks_forked" id="LI_blocks2" class="dropdown-item">
+                                        Forked Blocks (Reorgs)
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/accounts" id="LI_accountall" class="dropdown-item">
+                                        Top Accounts
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/contractsVerified" id="LI_contract_verified" class="dropdown-item">
+                                        Verified Contracts
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- End Blockchain -->
+
+                        <!-- Validators -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_Validators" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Validators</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+
+                                <li>
+                                    <a href="/validators" id="LI75" class="dropdown-item">
+                                        Validators Leaderboard
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/validatorset" id="LI76" class="dropdown-item">
+                                        View Validators Set Info
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- End Validators -->
+
+                        <!-- Tokens -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_tokens" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tokens</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+
+                                <li>
+                                    <a href="/tokens" id="LI21" class="dropdown-item">
+                                        Top Tokens <span class="small text-muted">(BEP-20)</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/tokentxns" id="LI1" class="dropdown-item">
+                                        Token Transfers <span class="small text-muted">(BEP-20)</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- End Tokens -->
+
+                        <!-- NFTs -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_Nfts" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">NFTs</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+
+
+
+
+
+
+                                <li>
+                                    <a href="/nft-top-contracts" id="LI63" class="dropdown-item">
+                                        Top NFTs
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/nft-top-mints" id="LI67" class="dropdown-item">
+                                        Top Mints
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/nft-trades" id="LI64" class="dropdown-item">
+                                        Latest Trades
+                                    </a>
+                                </li>
+
+                                 <li>
+                                    <a href="/nft-transfers" id="LI65" class="dropdown-item">
+                                        Latest Transfers
+                                    </a>
+                                </li>
+
+                                 <li>
+                                    <a href="/nft-latest-mints" id="LI66" class="dropdown-item">
+                                        Latest Mints
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- End NFTs -->
+
+                        <!-- Resrouces -->
+                        <li class="nav-item dropdown">
+                            <a href="javascript:;" id="LI_resources" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+
+                                <li>
+                                    <a href="/charts" id="LI_charts2" class="dropdown-item">
+                                        Charts &amp;  Stats
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/topstat" id="LI_topstat" class="dropdown-item">
+                                        Top Statistics
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <!-- End Resrouces -->
+
+                        <!-- Developers -->
+                        <li class="nav-item dropdown">
+                            <a href="#" id="li_developers" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Developers</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                <li>
+                                    <a href="https://etherscan.io/apis?id=56" id="LI5" class="dropdown-item" target="_blank">
+                                        API Plans <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://docs.bscscan.com" id="LI6" class="dropdown-item" target="_blank">
+                                        API Documentation
+                                    </a>
+                                </li>
+
+                                 <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+
+                                <li>
+                                    <a href="/code-reader" id="A1" class="dropdown-item">
+                                        Code Reader <span class="badge border bg-light text-muted">Beta</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/verifyContract" id="LI17" class="dropdown-item">
+                                        Verify Contract
+                                    </a>
+                                </li>
+
+                                 <li>
+                                    <a href="/find-similar-contracts" id="LI55" class="dropdown-item">
+                                        Similar Contract Search
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/contractdiffchecker" id="LI54" class="dropdown-item">
+                                        Contract Diff Checker
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a href="/vyper" id="LI27" class="dropdown-item">
+                                        Vyper Online Compiler
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/opcode-tool" id="LI24" class="dropdown-item">
+                                        Bytecode to Opcode
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="/pushTx" id="LI10" class="dropdown-item">
+                                        Broadcast Transaction
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- End Developers -->
+
+                        <!-- More -->
+                        <li class="nav-item dropdown position-initial">
+                            <a href="javascript:;" id="LI_services2" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <div class="dropdown-menu dropdown-menu-border dropdown-menu-mega">
+                                <div class="row">
+                                    <div class="col-lg order-last order-lg-first">
+                                        <div class="d-flex flex-column bg-light h-100 rounded-3 p-5">
+                                            <div>
+                                                <h6>Tools &amp; Services</h6>
+                                                <p>Discover more of BscScan's tools and services in one place.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Tools</h6>
+                                        <ul class="list-unstyled">
+                                             <li>
+                                                 <a href="/inputdatadecoder" id="A3" class="dropdown-item">
+                                                     <i class="far fa-file-binary dropdown-item-icon fa-fw me-1"></i>Input Data Decoder <span class="badge border bg-light text-muted">Beta</span>
+                                                 </a>
+                                             </li>
+
+                                            <li>
+                                                <a href="/unitconverter" id="LI50" class="dropdown-item">
+                                                    <i class="far fa-arrows-rotate dropdown-item-icon fa-fw me-1"></i>Unit Converter
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/exportData" id="LI51" class="dropdown-item">
+                                                    <i class="far fa-download fa-fw me-1"></i>CSV Export
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/balancecheck-tool" id="LI52" class="dropdown-item">
+                                                    <i class="far fa-file-invoice-dollar fa-fw me-1"></i>Account Balance Checker
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Explore</h6>
+                                        <ul class="list-unstyled">
+
+                                            <li>
+                                                <a href="/gastracker" id="LI19" class="dropdown-item">
+                                                    <i class="far fa-gas-pump dropdown-item-icon fa-fw me-1"></i>Gas Tracker
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/nodetracker" id="LI46" class="dropdown-item">
+                                                    <i class="far fa-server dropdown-item-icon fa-fw me-1"></i>Node Tracker
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/labelcloud" id="LI41" class="dropdown-item">
+                                                    <i class="far fa-signs-post dropdown-item-icon fa-fw me-1"></i>Label Cloud
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/name-lookup" id="LI26" class="dropdown-item">
+                                                    <i class="far fa-magnifying-glass-chart dropdown-item-icon fa-fw me-1"></i>Domain Name Lookup
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm py-5">
+                                        <h6 class="px-3 mb-3">Services</h6>
+                                        <ul class="list-unstyled">
+
+                                            <li>
+                                                <a href="/tokenapprovalchecker" id="LI49" class="dropdown-item">
+                                                    <i class="far fa-shield-keyhole dropdown-item-icon fa-fw me-1"></i>Token Approvals <span class="badge border bg-light text-muted">Beta</span>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/verifiedSignatures" id="LI29" class="dropdown-item">
+                                                    <i class="far fa-signature-lock dropdown-item-icon fa-fw me-1"></i>Verified Signature
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="/advanced-filter" id="LI31" class="dropdown-item">
+                                                    <i class="far fa-filters dropdown-item-icon fa-fw me-1"></i>Advanced Filter <span class="badge border bg-light text-muted">Beta</span>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End More -->
+
+
+                        <li class="nav-item dropdown d-block d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explorers</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+
+                                <li><a class="dropdown-item active" href="https://bscscan.com">Bsc Mainnet</a></li><li><a class="dropdown-item" href="https://opbnb.bscscan.com">opBNB Mainnet</a></li>
+                                <li><hr class="dropdown-divider"></li><li><a class="dropdown-item" href="https://testnet.bscscan.com">Bsc Testnet</a></li><li><a class="dropdown-item" href="https://opbnb-testnet.bscscan.com">opBNB Testnet</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Appearance & Settings -->
+                        <li class="nav-item dropdown d-block d-lg-none">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Appearance &amp; Settings</a>
+                            <ul class="dropdown-menu dropdown-menu-border" style="min-width: 14rem;">
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn active" data-bs-theme-value="light" onclick="setThemeMode('light');">
+                                        <i class="far fa-sun-bright fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-sun-bright"></i> Light
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dim" onclick="setThemeMode('dim');">
+                                        <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon-stars"></i> Dim
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item theme-btn" data-bs-theme-value="dark" onclick="setThemeMode('dark');">
+                                        <i class="far fa-moon-stars fa-fw dropdown-item-icon theme-icon me-1" data-href="#fa-moon"></i> Dark
+                                    </button>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/settings">
+                                        <i class="far fa-gear fa-fw dropdown-item-icon me-1"></i> Site Settings <i class="far fa-arrow-right ms-1"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End Appearance & Settings -->
+
+
+                        <li class="nav-item align-self-center d-none d-lg-block">
+                            <span class="text-secondary">|</span>
+                        </li>
+
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" href="/login">
+                                <i class="far fa-user-circle me-1"></i> Sign In
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- ==========  END HEADER ========== -->
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main id="content" class="main-content" role="main">
+        <input type="hidden" name="hdnAgeText" id="hdnAgeText" value="Age" />
+        <input type="hidden" name="hdnDateTimeText" id="hdnDateTimeText" value="Date Time (UTC)" />
+        <input type="hidden" name="hdnAgeTitle" id="hdnAgeTitle" value="Click to show Age Format" />
+        <input type="hidden" name="hdnDateTimeTitle" id="hdnDateTimeTitle" value="Click to show Datetime Format" />
+        <input type="hidden" name="hdnTxnText" id="hdnTxnText" value="Txn Fee" />
+        <input type="hidden" name="hdnGasPriceText" id="hdnGasPriceText" value="Gas Price" />
+
+            <input type="hidden" name="hdnTxnFeeTitle" id="hdnTxnFeeTitle" value="(Gas Price * Gas Used by Txns) in BNB" />
+
+        <input type="hidden" name="hdnGasPriceTitle" id="hdnGasPriceTitle" value="Gas Price in Gwei" />
+        <input type="hidden" name="hdnSiteName" id="hdnSiteName" value="bscscan" />
+        <input type="hidden" name="hdnSiteEmptyToken" id="hdnSiteEmptyToken" value="/assets/bsc/images/svg/empty-token.svg?v=25.5.5.1" />
+        <input type="hidden" name="hdnSiteShortUrl" id="hdnSiteShortUrl" value="bscscan.com" />
+
+
+    <div id="mainOverlay" class="bg-white bg-opacity-40"></div>
+
+    <section class='bg-dark pt-14 pb-20' style='background-image: url(/images/svg/waves-light.svg);'>
+        <div class='container-xxl'>
+            <div class='row justify-content-between align-items-center'>
+                <div class='col-md-9 col-lg-7 mb-5'>
+                    <h1 class='fs-lg text-white fw-medium mb-3'>
+                        BNB Smart Chain Explorer
+                    </h1>
+
+                    <form class="mb-4" action="/search" method="GET">
+                        <div class='search-panel-container bg-white border rounded d-flex gap-2 p-1.5'>
+                            <!-- Search Filter -->
+                            <div class="d-none d-sm-block">
+                                <select name="f" class="form-select fs-base border-0 filterby" aria-label="Default select example">
+                                    <option selected value="0">All Filters</option>
+                                    <option value="1">Addresses</option>
+                                    <option value="2">Tokens</option>
+
+                                    <option value="3">Name Tags</option>
+                                    <option value="6">Domain Names</option>
+                                    <option value="4">Labels</option>
+                                    <option value="5">Websites</option>
+
+                                </select>
+                            </div>
+                            <!-- End Search Filter -->
+
+                            <!-- Search Box -->
+                            <div class="flex-grow-1 position-relative auto-search-max-height">
+                                <label for="search-panel" class="visually-hidden">Search</label>
+
+                                <input id="search-panel" type="text" class="form-control fs-base border-0 pe-8" autocomplete="off" spellcheck="false" placeholder="Search by Address / Txn Hash / Block / Token / Domain Name" aria-describedby="button-header-search" name="q" onkeyup="handleSearchText(this);" maxlength="68" />
+
+                                <a href="javascript:;" class="clear-icon d-none align-items-center position-absolute top-0 bottom-0 my-auto d-flex align-items-center" style="right: 0.75rem; cursor:pointer;">
+                                    <i class="fa-regular fa-xmark fs-5 text-secondary"></i>
+                                </a>
+
+                                <input type="hidden" value="" id="hdnSearchText" />
+                                <input type="hidden" value="" id="hdnSearchLabel" />
+                                <input id="hdnIsTestNet" value="False" type="hidden" />
+                            </div>
+
+                            <div>
+
+                                    <button class="btn fs-base btn-primary" type="submit">
+
+                                    <i class="far fa-magnifying-glass"></i>
+                                </button>
+                            </div>
+                            <!-- End Search Box -->
+                        </div>
+                    </form>
+
+
+                    <!-- Text Ads -->
+
+                    <p class="text-white text-opacity-75 mb-0 noindex-section" style="min-height:22px" data-nosnippet>
+
+                        <!-- Revive Adserver Anti Adblocker Asynchronous JS Tag - Generated with Revive Adserver v5.5.2 -->
+<ins dgpz-t8xt5pt6kr-em9uzwlk="10" dgpz-t8xt5pt6kr-id="fb7ca7d4362180864a0c74f8efefe11d"></ins>
+<script async src="//xuv.etherscan.com/d3d3/ZGVsaXZlcnk/YXN5bmNqcw==.php"></script>
+                    </p>
+
+                    <!-- End Text Ads -->
+
+                </div>
+
+
+                <!-- Banners -->
+                <div class="col-auto mx-auto noindex-section" data-nosnippet>
+                    <div class="d-none d-lg-flex justify-content-center mt-n4">
+                        <a class="position-relative d-inline-block d-sm-none" target="_blank" href="https://goto.bscscan.com/rd/JUDFVXANP8MGBH1UZ79TTCJFX">
+  <span class="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1" style="right: .75rem; top: -.5rem;">Ad</span>
+  <img class="img-fluid rounded" width="321" height="101" src="/images/gen/blockscan_multichain_321x101.png" alt="Ad"/>
+</a>
+
+<a class="position-relative d-none d-sm-inline-block d-lg-none" target="_blank" href="https://goto.bscscan.com/rd/JUDFVXANP8MGBH1UZ79TTCJFX">
+  <span class="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1" style="right: .75rem; top: -.5rem;">Ad</span>
+  <img class="img-fluid rounded" width="730" height="90" src="/images/gen/blockscan_multichain_730x90.png" alt="Ad"/>
+</a>
+
+<a class="position-relative d-none d-lg-inline-block" target="_blank" href="https://goto.bscscan.com/rd/JUDFVXANP8MGBH1UZ79TTCJFX">
+  <span class="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1" style="right: .75rem; top: -.5rem;">Ad</span>
+  <img class="img-fluid rounded" width="321" height="101" src="/images/gen/blockscan_multichain_321x101.png" alt="Ad"/>
+</a>
+                    </div>
+                </div>
+                <!-- End Banners -->
+
+            </div>
+        </div>
+    </section>
+
+
+        <section class="container-xxl pb-20">
+
+        <!-- Stats -->
+
+        <div id="ContentPlaceHolder1_mainboxes" class="card py-5 px-4 mb-4 mt-n12">
+        <div class="row g-lg-10">
+            <div class="col-md-6 col-lg-4">
+                <!-- Coin Price -->
+                <div class="d-flex">
+                    <div class="text-center me-3" style="width: 1.5rem;">
+                        <img class="img-fluid mx-auto" width="24" data-img-theme="light" src="/assets/bsc/images/svg/logos/token-light.svg?v=25.5.5.1">
+                        <img class="img-fluid mx-auto" width="24" data-img-theme="dim" src="/assets/bsc/images/svg/logos/token-dim.svg?v=25.5.5.1">
+                        <img class="img-fluid mx-auto" width="24" data-img-theme="dark" src="/assets/bsc/images/svg/logos/token-dark.svg?v=25.5.5.1">
+                    </div>
+
+                    <div class="flex-grow-1">
+
+                        <div class="text-cap mb-px">BNB Price</div>
+                        <a class='link-dark fs-base' href='/chart/bnbprice' rel='tooltip' data-bs-toggle='tooltip' data-bs-placement='bottom' title='View Historical BNB Price'><span id='data-eth-price'>$663.00</span><span class="text-muted"> @ 0.006333 BTC</span><span class='text-success small'> (+0.17%)</span></a>
+
+                    </div>
+                </div>
+                <!-- End Coin Price -->
+
+                <hr class="my-5">
+
+
+                <!-- Coin Supply -->
+                <div class="d-flex">
+                    <div class="me-3">
+                        <i class="fal fa-globe" style="font-size: 1.5rem;"></i>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="text-cap mb-px">
+                            BNB Market Cap on Bsc
+
+                        </div>
+                        <a href="/chart/marketcap" id="ContentPlaceHolder1_aStatSupply" class="link-dark fs-base">
+                            <span id='data-mcap'>$99,706,554,516.00</span> <span class='text-muted'>(150,386,204 BNB)</span>
+                        </a>
+
+                    </div>
+                </div>
+                <!-- End Coin Supply -->
+
+            </div>
+
+            <div class="col-md-6 col-lg-4 border-md-start">
+                <hr class="d-block d-md-none my-5">
+                <div class="d-flex">
+                    <div class="me-3">
+                        <i class="fal fa-server" style="font-size: 1.5rem;"></i>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="text-cap mb-px">Transactions</div>
+                        <a href='/txs' class='link-dark fs-base' rel='tooltip' data-bs-toggle='tooltip' data-bs-placement='left' data-bs-html='true' title='Total Transactions Counter<br>(Update every 5 mins)'><span id='data-txns'>7,536.31 M</span></a><span class='text-muted small' style='font-size:14px' rel='tooltip' data-bs-toggle='tooltip' data-bs-placement='bottom' title='Transactions per Second'> (<span id='data-tps'>89.2</span> TPS)</span>
+                    </div>
+
+
+                    <div class="text-end">
+                        <div class="text-cap mb-px">Med Gas Price</div>
+                        <a href='/gastracker' class='link-dark fs-base'><span id='data-gas'>0.1</span> Gwei <span id='data-gprice' class='text-muted small' style='font-size:14px'>(< $0.01)</span></a>
+                    </div>
+
+                </div>
+
+                <hr class="my-5">
+
+                <div class="d-flex">
+                    <div class="me-3">
+                        <i class="fal fa-gauge" style="font-size: 1.5rem;"></i>
+                    </div>
+
+                    <div class="flex-grow-1">
+                        <div class="text-cap mb-px">Latest Block</div>
+                        <a rel='tooltip' class='fs-base link-dark' data-bs-toggle='tooltip' data-bs-placement='bottom' title='The latest Block No' href='/blocks'><span id='lastblock'>50890356</span></a>
+                        <a data-bs-toggle='tooltip' href='/chart/blocktime' class='small text-muted text-link' data-bs-placement='right' title='Average Block Time (The latest 5000 blocks)'>(<span id='avgblocktime'>1.5s</span>)</a>
+                    </div>
+
+
+                    <div class="text-end">
+                        <div class="text-cap mb-px">Voting Power</div>
+                        <a rel='tooltip' class='fs-base link-dark' href='/chart/votingpower7d'>30,635,367<b>.</b>83 BNB</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 border-lg-start">
+                <hr class="d-block d-lg-none my-5">
+                <div class="text-cap mb-px">BNB SMART CHAIN Transaction History in 14 days</div>
+                <div id="divTxnHistoryChart" class="w-100 pt-2" style="height: 105px;"></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- End Stats -->
+
+        <!-- Banners -->
+
+        <div class="d-flex d-lg-none justify-content-center mb-4">
+            <a class="position-relative d-inline-block d-sm-none" target="_blank" href="https://goto.bscscan.com/rd/JUDFVXANP8MGBH1UZ79TTCJFX">
+  <span class="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1" style="right: .75rem; top: -.5rem;">Ad</span>
+  <img class="img-fluid rounded" width="321" height="101" src="/images/gen/blockscan_multichain_321x101.png" alt="Ad"/>
+</a>
+
+<a class="position-relative d-none d-sm-inline-block d-lg-none" target="_blank" href="https://goto.bscscan.com/rd/JUDFVXANP8MGBH1UZ79TTCJFX">
+  <span class="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1" style="right: .75rem; top: -.5rem;">Ad</span>
+  <img class="img-fluid rounded" width="730" height="90" src="/images/gen/blockscan_multichain_730x90.png" alt="Ad"/>
+</a>
+
+<a class="position-relative d-none d-lg-inline-block" target="_blank" href="https://goto.bscscan.com/rd/JUDFVXANP8MGBH1UZ79TTCJFX">
+  <span class="position-absolute bg-white text-dark shadow-sm rounded-1 small px-1" style="right: .75rem; top: -.5rem;">Ad</span>
+  <img class="img-fluid rounded" width="321" height="101" src="/images/gen/blockscan_multichain_321x101.png" alt="Ad"/>
+</a>
+        </div>
+
+        <!-- End Banners -->
+
+        <!-- Custom Cards -->
+        <div id="ContentPlaceHolder1_divBlkTxn" class="row gx-4">
+             <div id="cardSpinnerWrapper">
+                 <!-- Spinner --><div id="cardSpinner" class="text-center py-10 "><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div><div class="small text-muted mt-1">Loading</div></div><!-- End Spinner -->
+             </div>
+
+
+
+            <!-- Card 1 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center gap-1">
+                            <h2 class="card-header-title">
+                                Latest Blocks
+                            </h2>
+
+                            <button type="button" id="card1AdvancedFilterListButton" class="btn btn-sm btn-ghost-white d-none" data-bs-toggle="modal" data-bs-target="#advancedFilterListModal" data-bs-card-index="1">
+                                <i class="far fa-pen-to-square fa-fw"></i>
+                            </button>
+
+
+                        </div>
+
+                        <button id="ContentPlaceHolder1_btnCustomizeCard1" type="button" class="btn btn-sm btn-white" data-bs-toggle="modal" data-bs-target="#customizeCardModal" data-bs-card-index="1">
+                            <i class="far fa-grid-2 me-1"></i>Customize
+                        </button>
+
+                    </div>
+
+                    <div class="card-body overflow-auto scrollbar-custom " style="max-height: 30.3rem;" id="mCSB_1_container">
+                        <div class='row'><div class='col-sm-4'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span><a class='text-truncate' style='max-width: 6rem;' href='/block/50890356'>50890356</a><div class='small text-muted'> 4 secs ago</div></div></div></div><div class='col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>Validated By <a class='text-truncate d-block' style='max-width: 8rem;' href='/address/0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'><span data-bs-toggle='tooltip' title='0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'>Validator : fuji</span></a></div><a href="/txs?block=50890356" data-bs-toggle='tooltip' title="Transactions in this Block">109 txns </a> <span class="small text-muted me-2">in 1 sec</span><span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2" data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00664 BNB</span></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2' data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00664 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span><a class='text-truncate' style='max-width: 6rem;' href='/block/50890355'>50890355</a><div class='small text-muted'> 5 secs ago</div></div></div></div><div class='col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>Validated By <a class='text-truncate d-block' style='max-width: 8rem;' href='/address/0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'><span data-bs-toggle='tooltip' title='0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'>Validator : fuji</span></a></div><a href="/txs?block=50890355" data-bs-toggle='tooltip' title="Transactions in this Block">153 txns </a> <span class="small text-muted me-2">in 2 secs</span><span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2" data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00566 BNB</span></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2' data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00566 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span><a class='text-truncate' style='max-width: 6rem;' href='/block/50890354'>50890354</a><div class='small text-muted'> 7 secs ago</div></div></div></div><div class='col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>Validated By <a class='text-truncate d-block' style='max-width: 8rem;' href='/address/0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'><span data-bs-toggle='tooltip' title='0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'>Validator : fuji</span></a></div><a href="/txs?block=50890354" data-bs-toggle='tooltip' title="Transactions in this Block">119 txns </a> <span class="small text-muted me-2">in 1 sec</span><span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2" data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00564 BNB</span></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2' data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00564 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span><a class='text-truncate' style='max-width: 6rem;' href='/block/50890353'>50890353</a><div class='small text-muted'> 8 secs ago</div></div></div></div><div class='col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>Validated By <a class='text-truncate d-block' style='max-width: 8rem;' href='/address/0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'><span data-bs-toggle='tooltip' title='0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'>Validator : fuji</span></a></div><a href="/txs?block=50890353" data-bs-toggle='tooltip' title="Transactions in this Block">108 txns </a> <span class="small text-muted me-2">in 2 secs</span><span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2" data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00418 BNB</span></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2' data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00418 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span><a class='text-truncate' style='max-width: 6rem;' href='/block/50890352'>50890352</a><div class='small text-muted'> 10 secs ago</div></div></div></div><div class='col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>Validated By <a class='text-truncate d-block' style='max-width: 8rem;' href='/address/0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'><span data-bs-toggle='tooltip' title='0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'>Validator : fuji</span></a></div><a href="/txs?block=50890352" data-bs-toggle='tooltip' title="Transactions in this Block">109 txns </a> <span class="small text-muted me-2">in 1 sec</span><span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2" data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00482 BNB</span></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2' data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00482 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-cube fs-lg'></i></div><div class='d-flex flex-row flex-sm-column align-items-center align-items-sm-start gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>Block</span><a class='text-truncate' style='max-width: 6rem;' href='/block/50890351'>50890351</a><div class='small text-muted'> 11 secs ago</div></div></div></div><div class='col-sm-8 d-flex justify-content-sm-between align-items-end align-items-sm-center position-relative'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>Validated By <a class='text-truncate d-block' style='max-width: 8rem;' href='/address/0xb4647b856cb9c3856d559c885bed8b43e0846a47'><span data-bs-toggle='tooltip' title='0xb4647b856cb9c3856d559c885bed8b43e0846a47'>Validator : CertiK</span></a></div><a href="/txs?block=50890351" data-bs-toggle='tooltip' title="Transactions in this Block">132 txns </a> <span class="small text-muted me-2">in 2 secs</span><span class="d-inline-block d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1 py-sm-1.5 px-1.5 px-sm-2" data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00415 BNB</span></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark fw-medium py-1.5 px-2' data-bs-toggle='tooltip' title='Block Reward'>0<b>.</b>00415 BNB</span></div></div></div>
+                    </div>
+
+                    <a class="card-footer bg-light fw-medium text-cap link-muted text-center" href="/blocks">
+                        View all blocks<i class="far fa-long-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End Card 1 -->
+
+            <!-- Card 2 -->
+            <div class="col-lg-6 mb-4">
+                <div class="card h-100">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center gap-1">
+                            <h2 class="card-header-title">
+                                Latest Transactions
+                            </h2>
+
+                             <button type="button" id="card2AdvancedFilterListButton" class="btn btn-sm btn-ghost-white d-none" data-bs-toggle="modal" data-bs-target="#advancedFilterListModal" data-bs-card-index="2">
+                                 <i class="far fa-pen-to-square fa-fw"></i>
+                             </button>
+
+
+                        </div>
+
+                        <button id="ContentPlaceHolder1_btnCustomizeCard2" type="button" class="btn btn-sm btn-white" data-bs-toggle="modal" data-bs-target="#customizeCardModal" data-bs-card-index="2">
+                            <i class="far fa-grid-2 me-1"></i>Customize
+                        </button>
+
+                    </div>
+
+                    <div class="card-body overflow-auto scrollbar-custom " style="max-height: 30.3rem;" id="mCSB_2_container">
+                        <div class='row'><div class='col-sm-4 col-lg-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>TX#</span><a class='d-block text-truncate' style='max-width:7rem;' href='/tx/0x3f285945a4e262be3aab3d450b47796a1d3133b3ec0f5c90e90fb7a1ed7ecd62'>0x3f285945a4e262be3aab3d450b47796a1d3133b3ec0f5c90e90fb7a1ed7ecd62</a><div class='small text-muted' >4 secs ago</div></div></div></div><div class='col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>From <a href='/address/0xbdcc079bbb23c1d9a6f36aa31309676c258abac7' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0xbdcc079bbb23c1d9a6f36aa31309676c258abac7'><span data-highlight-target="0xbdcc079BBb23C1D9a6F36AA31309676C258aBAC7">0xbdcc079B...C258aBAC7</span></span></a></div><div class='d-flex align-items-center flex-wrap gap-1'>To <a href='/address/0x0000000000000000000000000000000000001000' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0x0000000000000000000000000000000000001000'><span data-highlight-target="0x0000000000000000000000000000000000001000">0x00000000...000001000</span></span></a><span class='d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium'>0<b>.</b>00664 BNB</span></div></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0' data-bs-toggle='tooltip' title='Amount'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium'>0<b>.</b>00664 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4 col-lg-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>TX#</span><a class='d-block text-truncate' style='max-width:7rem;' href='/tx/0x95b91a31e34f2ab2110a72535b1b6500dfd9c814f0d16d1133c218c4bb2dae64'>0x95b91a31e34f2ab2110a72535b1b6500dfd9c814f0d16d1133c218c4bb2dae64</a><div class='small text-muted' >4 secs ago</div></div></div></div><div class='col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>From <a href='/address/0x68c7ce94055f927ea7d6331a199cec69ca2d518b' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0x68c7ce94055f927ea7d6331a199cec69ca2d518b'><span data-highlight-target="0x68C7cE94055f927ea7D6331a199cec69ca2d518B">0x68C7cE94...9ca2d518B</span></span></a></div><div class='d-flex align-items-center flex-wrap gap-1'>To <a href='/address/0x48a5ed9abc1a8fbe86cec4900483f43a7f2dbb48' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0x48a5ed9abc1a8fbe86cec4900483f43a7f2dbb48'><span data-highlight-target="0x48a5Ed9abC1a8FBe86ceC4900483f43a7f2dBB48">0x48a5Ed9a...a7f2dBB48</span></span></a><span class='d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium'>0 BNB</span></div></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0' data-bs-toggle='tooltip' title='Amount'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium'>0 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4 col-lg-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>TX#</span><a class='d-block text-truncate' style='max-width:7rem;' href='/tx/0x7d2128de111492ad9b5de1f7f7058c0265009ddd20075aab4664e10ca597f2e6'>0x7d2128de111492ad9b5de1f7f7058c0265009ddd20075aab4664e10ca597f2e6</a><div class='small text-muted' >4 secs ago</div></div></div></div><div class='col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>From <a href='/address/0x8894e0a0c962cb723c1976a4421c95949be2d4e3' class='d-inline-flex align-items-center'><img src="/token/images/labels/binancegrayscaled_32.png" class="filter-grayscale mt-n0.5 me-1" width="13"  data-bs-toggle="tooltip" data-bs-title="Binance" alt="Binance"></img><span data-bs-toggle='tooltip' title='0x8894e0a0c962cb723c1976a4421c95949be2d4e3'><span data-highlight-target="0x8894E0a0c962CB723c1976a4421c95949bE2D4E3">0x8894E0a0...49bE2D4E3</span></span></a></div><div class='d-flex align-items-center flex-wrap gap-1'>To <a href='/address/0x55d398326f99059ff775485246999027b3197955' class='d-inline-flex align-items-center'><img src="/token/images/labels/binancegrayscaled_32.png" class="filter-grayscale mt-n0.5 me-1" width="13"  data-bs-toggle="tooltip" data-bs-title="Binance" alt="Binance"></img><span data-bs-toggle='tooltip' title='0x55d398326f99059ff775485246999027b3197955'><span data-highlight-target="0x55d398326f99059fF775485246999027B3197955">0x55d39832...7B3197955</span></span></a><span class='d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium'>0 BNB</span></div></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0' data-bs-toggle='tooltip' title='Amount'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium'>0 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4 col-lg-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>TX#</span><a class='d-block text-truncate' style='max-width:7rem;' href='/tx/0x77c251162b4bcbf326eb9f733ad0f67dfb640ca381d62fb5edb8ac378ec0bd31'>0x77c251162b4bcbf326eb9f733ad0f67dfb640ca381d62fb5edb8ac378ec0bd31</a><div class='small text-muted' >4 secs ago</div></div></div></div><div class='col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>From <a href='/address/0xa180fe01b906a1be37be6c534a3300785b20d947' class='d-inline-flex align-items-center'><img src="/token/images/labels/binancegrayscaled_32.png" class="filter-grayscale mt-n0.5 me-1" width="13"  data-bs-toggle="tooltip" data-bs-title="Binance" alt="Binance"></img><span data-bs-toggle='tooltip' title='0xa180fe01b906a1be37be6c534a3300785b20d947'><span data-highlight-target="0xa180Fe01B906A1bE37BE6c534a3300785b20d947">0xa180Fe01...85b20d947</span></span></a></div><div class='d-flex align-items-center flex-wrap gap-1'>To <a href='/address/0x55d398326f99059ff775485246999027b3197955' class='d-inline-flex align-items-center'><img src="/token/images/labels/binancegrayscaled_32.png" class="filter-grayscale mt-n0.5 me-1" width="13"  data-bs-toggle="tooltip" data-bs-title="Binance" alt="Binance"></img><span data-bs-toggle='tooltip' title='0x55d398326f99059ff775485246999027b3197955'><span data-highlight-target="0x55d398326f99059fF775485246999027B3197955">0x55d39832...7B3197955</span></span></a><span class='d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium'>0 BNB</span></div></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0' data-bs-toggle='tooltip' title='Amount'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium'>0 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4 col-lg-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>TX#</span><a class='d-block text-truncate' style='max-width:7rem;' href='/tx/0xcf19f95f3bc7e8d1639ffcc57cb2437147b3d860f314fbb9d590ef2929b857cb'>0xcf19f95f3bc7e8d1639ffcc57cb2437147b3d860f314fbb9d590ef2929b857cb</a><div class='small text-muted' >4 secs ago</div></div></div></div><div class='col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>From <a href='/address/0xab7ac1cdceaef717a120e8426fa18c599dcb14df' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0xab7ac1cdceaef717a120e8426fa18c599dcb14df'><span data-highlight-target="0xAB7AC1cDCeAeF717A120e8426fA18c599dCb14df">0xAB7AC1cD...99dCb14df</span></span></a></div><div class='d-flex align-items-center flex-wrap gap-1'>To <a href='/address/0x7391b20259f14c66a25c80c781e6095d5301682f' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0x7391b20259f14c66a25c80c781e6095d5301682f'><span data-highlight-target="0x7391b20259F14c66a25c80C781E6095d5301682f">0x7391b202...d5301682f</span></span></a><span class='d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium'>0 BNB</span></div></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0' data-bs-toggle='tooltip' title='Amount'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium'>0 BNB</span></div></div></div><hr><div class='row'><div class='col-sm-4 col-lg-5'><div class='d-flex align-items-center gap-2'><div class='d-none d-sm-flex content-center bg-light text-muted rounded p-3' style='height: 3rem; width: 3rem;'><i class='fal fa-memo fs-lg'></i></div><div class='d-flex align-items-center align-items-sm-start flex-row flex-sm-column gap-1 gap-sm-0'><span class='d-inline-block d-sm-none'>TX#</span><a class='d-block text-truncate' style='max-width:7rem;' href='/tx/0x5846aee49751031b63737993abb2f4a60acbfe3ccf6c0bd710dc0538c3875e03'>0x5846aee49751031b63737993abb2f4a60acbfe3ccf6c0bd710dc0538c3875e03</a><div class='small text-muted' >4 secs ago</div></div></div></div><div class='col-sm-8 col-lg-7 d-flex justify-content-sm-between align-items-end align-items-sm-center'><div class='pe-0 pe-sm-2'><div class='d-flex flex-wrap gap-1'>From <a href='/address/0x7c3ec3516afc0164a1c81d9b5fa810a0326d348e' class='d-inline-flex align-items-center'><span data-bs-toggle='tooltip' title='0x7c3ec3516afc0164a1c81d9b5fa810a0326d348e'><span data-highlight-target="0x7C3eC3516AFc0164A1C81d9b5fa810A0326D348e">0x7C3eC351...0326D348e</span></span></a></div><div class='d-flex align-items-center flex-wrap gap-1'>To <a href='/address/0x55d398326f99059ff775485246999027b3197955' class='d-inline-flex align-items-center'><img src="/token/images/labels/binancegrayscaled_32.png" class="filter-grayscale mt-n0.5 me-1" width="13"  data-bs-toggle="tooltip" data-bs-title="Binance" alt="Binance"></img><span data-bs-toggle='tooltip' title='0x55d398326f99059ff775485246999027b3197955'><span data-highlight-target="0x55d398326f99059fF775485246999027B3197955">0x55d39832...7B3197955</span></span></a><span class='d-inline d-sm-none badge border border-dark dark:border-white border-opacity-15 text-dark ms-1 py-1.5 px-2 fw-medium'>0 BNB</span></div></div><div class='d-none d-sm-block text-end ms-2 ms-sm-0' data-bs-toggle='tooltip' title='Amount'><span class='badge border border-dark dark:border-white border-opacity-15 text-dark  py-1.5 px-2 fw-medium'>0 BNB</span></div></div></div>
+                    </div>
+
+                    <a class="card-footer bg-light fw-medium text-cap link-muted text-center" href="/txs">
+                        View all transactions<i class="far fa-long-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- End Card 2 -->
+
+            </div>
+        <!-- End Custom Cards -->
+    </section>
+
+    <!-- Modal: Card Customize -->
+    <div class="modal fade" id="customizeCardModal" tabindex="-1" aria-labelledby="customizeCardLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="customizeCardLabel">Custom Card</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Customize this card by selecting one of the options below.</p>
+
+                    <form>
+                        <div id="ContentPlaceHolder1_divSavedAdvancedFiltersOption">
+                            <h6 class="text-cap fw-medium mb-2">ADVANCED FILTER</h6>
+
+                            <div class="d-flex gap-2 mb-4">
+                                <div class="position-relative border rounded py-1 px-2" id="checkAdvancedFilterInputWrapper">
+                                    <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="AdvancedFilters" id="checkAdvancedFilter">
+                                    <label class="form-check-label stretched-link" for="checkAdvancedFilter">Saved Filters</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h6 class="text-cap fw-medium mb-2">PRESET</h6>
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <div class="position-relative border rounded py-1 px-2">
+                                <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="LatestBlocks" id="checkPresets1">
+                                <label class="form-check-label stretched-link" for="checkPresets1">Latest Blocks</label>
+                            </div>
+
+                            <div class="position-relative border rounded py-1 px-2">
+                                <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="LatestTransactions" id="checkPresets2">
+                                <label class="form-check-label stretched-link" for="checkPresets2">Latest Transactions</label>
+                            </div>
+
+
+                            <div class="position-relative border rounded py-1 px-2">
+                                <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="HotContracts" id="checkPresets3">
+                                <label class="form-check-label stretched-link" for="checkPresets3">Hot Contracts</label>
+                            </div>
+
+                            <div class="position-relative border rounded py-1 px-2">
+                                <input class="form-check-input me-1" type="radio" name="checkCustomOption" value="TopGuzzlers" id="checkPresets4">
+                                <label class="form-check-label stretched-link" for="checkPresets4">Top Guzzlers</label>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="btnSaveCardType" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal: Card Customize -->
+
+    <!-- Modal: Advanced Filter List -->
+    <div class="modal fade" id="advancedFilterListModal" tabindex="-1" aria-labelledby="advancedFilterListModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="advancedFilterListModalLabel">Choose Advanced Filter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div id="listAdvancedFilter" class="modal-body">
+                    <div class="position-relative mb-4">
+                        <span class="d-flex align-items-center position-absolute top-0 bottom-0" title="Search" style="left: 0.75rem;">
+                            <i class="fa-regular fa-search fs-5 text-secondary"></i>
+                        </span>
+
+                        <input id="txtSearchSavedFilters" class="search form-control form-control-lg bg-light bg-focus-white" type="text" placeholder="Search saved filters" aria-label="Search" style="padding-left: 2.375rem;">
+                    </div>
+
+                    <div id="divSavedAdvancedFiltersResult" class="list d-flex flex-column scrollbar-custom overflow-y-auto gap-1" style="max-height: 25rem;">
+
+                        <div id="divSelectedFilters" class="d-none">
+
+                        </div>
+
+                        <h6 class="text-cap mb-0">Advanced Filter List</h6>
+
+                        <div id="divAdvancedFilterList">
+
+                        </div>
+                    </div>
+                    <!-- End Advanced Filter List -->
+                </div>
+
+                <div class="modal-footer bg-light">
+                    <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="btnSaveAdvancedFilterCard" class="btn btn-primary" disabled>Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal: Advanced Filter List -->
+
+    </main>
+
+    <div id="push" style="display: none;"></div>
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" id="emailSubscribeModalBox" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close close-md" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="text-center py-5-alt px-4">
+                        <div id="emailSubscribeModalBoxText"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade" id="copyAddressConfirmModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="mb-5">
+                        <div class="text-center">
+                            <div class="mb-2">
+                                <i class="fas fa-exclamation-triangle text-warning fs-2"></i>
+                            </div>
+
+                            <h6 class="modal-title fs-5 mb-0">Before You Copy</h6>
+                        </div>
+
+                        <div class="mb-3 text-center">
+                            <p class="text-muted small" id="addressToCopy"></p>
+                        </div>
+
+                        <p id="copyAddressConfirmMessage"></p>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="popupDontShowAgain">
+                            <label class="form-check-label" for="popupDontShowAgain">Don't show this for 30 days</label>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" id="btnConfirmCopyAddress" data-clipboard-target="#addressToCopy" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">
+                            Understand, Copy Address
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal: Add Transaction Private Note -->
+ <div class="modal fade" id="tnxPrivateNoteModal" tabindex="-1" role="dialog">
+     <div class="modal-dialog">
+         <div class="modal-content">
+         <div class="modal-header">
+             <h1 class="modal-title" id="tnxPrivateNoteModalLabel">Transaction Private Note</h1>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+
+         <div class="modal-body">
+             <form>
+             <div class="mb-4">
+                 <label class="form-label" for="saveTxnNoteHash">Transaction Hash</label>
+                 <input type="text" class="form-control py-2" id="saveTxnNoteHash" disabled>
+             </div>
+
+             <div class="mb-4">
+                 <label class="form-label" for="editTxnNote">Private Note Description</label>
+
+                 <textarea class="form-control py-2" id="editTxnNote" rows="5" name="text" placeholder="Short description.." maxlength="100"></textarea>
+                 <div class="small text-muted mt-1 ms-1"><span id="txtPrivateNoteTip"></span></div>
+
+                 <div class="form-text mt-2">
+                 <p>Please <strong class="fw-medium">DO NOT</strong> store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.
+                 </div>
+             </div>
+
+             <div class="d-flex flex-wrap gap-4">
+                 <a target="_blank" href="/mynotes_tx" rel="noopener noreferrer">
+                 View All Transactions Private Notes <i class="far fa-arrow-up-right text-secondary ms-1"></i>
+                 </a>
+             </div>
+
+             </form>
+         </div>
+
+         <div class="modal-footer">
+             <button type="button" class="btn btn-ghost-white" data-bs-dismiss="modal">Cancel</button>
+             <button type="button" class="btn btn-primary" onclick="quickSubmitTxPrivateNote();">Save changes</button>
+             <span id="modalElement" name="modalElement" style="display: none;"></span>
+         </div>
+         </div>
+     </div>
+ </div>
+ <!-- End Modal: Add Transaction Private Note -->
+
+<!-- Modal: Quick Add Private Name Tags -->
+ <div class="modal fade" id="privateNameTagModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h5 class="modal-title">
+                     My Address - Private Name Tag or Note
+                 </h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+                 <div class="mb-4">
+                     <p class="mb-1 ms-1">My Name Tag:</p>
+                     <input type="hidden" name="txtAddress" id="txtAddress" />
+                     <input type="text" spellcheck="false" class="form-control py-2 mb-2" id="txtPrivateNameTagMain" maxlength="35" />
+                     <div class="small text-muted mt-0 ms-1"><span id="privatetagtip">Private Name Tags (up to 35 characters) can be used for easy identification of addresses</span></div>
+                 </div>
+                 <div class="mb-4">
+                     <p class="mt-4 mb-1 ms-1">Private Note:</p>
+                     <textarea rows="8" cols="50" spellcheck="false" class="form-control py-2" id="txtPrivateNoteAreaMain" maxlength="500"></textarea>
+                     <div class="small text-muted mt-1 ms-1"><span id="privatenotetipMain">A private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.</span></div>
+                 </div>
+                 <a target="_blank" href="/mynotes_address">
+                     View all Private Name Tags <i class="far fa-arrow-up-right text-secondary ms-1"></i>
+                 </a>
+             </div>
+             <div class="modal-footer bg-light">
+                 <button data-bs-dismiss="modal" class="btn btn-ghost-white" type="button" id="closenote" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Close form without saving changes made">Close</button>
+                 <button class="btn btn-primary" type="button" id="savenote" data-bs-toggle="tooltip" data-bs-trigger="hover" title="Save all changes made" onclick="quickSubmitPrivateNameTag();">Save Changes</button>
+                 <span id="modalElementPrivateNameTag" name="modalElementPrivateNameTag" style="display: none;"></span>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- End Modal: Quick Add Private Name Tags -->
+
+    <footer id="masterFooter" class="bg-light mt-auto d-print-none">
+
+        <div class="container-xxl">
+            <div class="d-flex justify-content-between align-items-baseline py-6">
+                <!-- Social Links -->
+                <div class="d-flex gap-2">
+
+                    <a class="link-dark" href="https://twitter.com/bscscan" rel="nofollow noopener" target="_blank">
+                        <i class="fab fa-x-twitter me-0.5"></i> (Twitter)
+                    </a>
+
+                </div>
+                <!-- End Social Links -->
+
+                <a class="link-dark" href="#">
+                    <i class="far fa-arrow-up-to-line me-1"></i>Back to Top
+                </a>
+            </div>
+
+            <hr class="my-0">
+
+            <!-- Footer Content -->
+            <div class="row justify-content-md-between py-8 py-lg-10">
+                <div class="col-lg-4 pe-xl-16 mb-4 mb-lg-0">
+
+                    <a class="d-inline-flex align-items-center link-dark group mb-3" target="_blank" href="https://www.bnbchain.org/en/bnb-smart-chain">
+                        <img class="me-2" width="28" data-img-theme="light" src="/assets/bsc/images/svg/logos/chain-light.svg?v=25.5.5.1" alt="BNB Smart Chain Logo">
+                        <img class="me-2" width="28" data-img-theme="dim" src="/assets/bsc/images/svg/logos/chain-dim.svg?v=25.5.5.1" alt="BNB Smart Chain Logo">
+                        <img class="me-2" width="28" data-img-theme="dark" src="/assets/bsc/images/svg/logos/chain-dark.svg?v=25.5.5.1" alt="BNB Smart Chain Logo">
+                        <span class="fs-5">Powered By BNB Smart Chain</span>
+                        <i class="far fa-arrow-up-right-from-square text-muted small group-hover ms-2"></i>
+                    </a>
+
+
+                    <p class="fs-sm">BscScan is a Block Explorer and Analytics Platform for BNB Smart Chain.</p>
+                    <button type="button" class="btn btn-sm btn-secondary" onclick="addNetwork('web3');">
+                        <img class="me-1" width="18" src="/images/svg/brands/metamask.svg" alt="Metamask"> Add BSC Network
+                    </button>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
+                    <h4 class="h6 mb-3">Company</h4>
+                    <!-- List Group -->
+                    <ul class="list-unstyled list-sm-space fs-sm mb-0">
+
+                        <li>
+                            <a class="link-dark" href="/delegate">
+                                <span class="me-1">Delegate to BscScan</span> <span class="bg-primary text-white small fw-medium text-nowrap rounded-pill p-1 px-2">Staking</span>
+                            </a>
+                        </li>
+
+                        <li><a class="link-dark" href="/brandassets">Brand Assets</a></li>
+                        <li><a class="link-dark" href="/contactus">Contact Us</a></li>
+
+                        <li><a class="link-dark" href="/terms">Terms</a> & <a class="link-dark" href="/privacyPolicy">Privacy</a></li>
+                        <li><a class="link-dark" href="https://etherscan.io/bugbounty" target='_blank'>Bug Bounty</a> <i class='far fa-arrow-up-right-from-square text-muted ms-1'></i></li>
+                    </ul>
+                    <!-- End List Group -->
+                </div>
+
+
+
+                <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
+                    <h4 class="h6 mb-3">Community</h4>
+                    <!-- List Group -->
+                    <ul class="list-unstyled list-sm-space fs-sm mb-0">
+
+                            <li><a class="link-dark" href="https://docs.bscscan.com" target="_blank">API Documentation</a></li>
+
+                            <li><a class="link-dark" href="https://info.bscscan.com/">Knowledge Base</a></li>
+
+                        <li><a class="link-dark" href="https://bscscan.freshstatus.io" rel="nofollow noopener" target="_blank">Network Status</a></li>
+
+                            <li><a class="link-dark" href="https://www.binance.org/en/smartChain" target="_blank">Learn BSC <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+
+                    </ul>
+                    <!-- End List Group -->
+                </div>
+
+                <div class="col-12 col-md-4 col-lg">
+                    <h4 class="h6 mb-3">Products &amp; Services</h4>
+                    <!-- List Group -->
+                    <ul class="list-unstyled list-sm-space fs-sm mb-0">
+
+                        <li><a class="link-dark" href="https://etherscan.io/contactusadvertise?type=56">Advertise <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+
+                        <li><a class="link-dark" href="https://etherscan.io/eaas" target="_blank">Explorer as a Service (EaaS) <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+                        <li>
+                            <a href="https://etherscan.io/apis?id=56" id="LI80" class="link-dark" target="_blank">API Plans <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+
+                        <li><a class="link-dark" href="/priority-support">Priority Support</a></li>
+
+                        <li><a class="link-dark" href="https://blockscan.com" target="_blank">Blockscan <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+
+                    </ul>
+                    <!-- End List Group -->
+                </div>
+            </div>
+            <!-- End Footer Content -->
+
+            <!-- Copyright Content -->
+            <div class="border-top py-4">
+                <div class="row justify-content-between align-items-center fs-sm">
+                    <div class="col-md mb-2 mb-md-0">
+                        <p class="mb-0">
+                            BscScan © 2025  (BSC-D)
+                            <span class="mx-1">|</span>
+                            ⛏ Built by Team <a href="https://etherscan.io" target="_blank"><strong>Etherscan</strong><i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a>
+                        </p>
+                    </div>
+
+                    <div class="col-md text-md-end">
+                        <p class="mb-0">
+                            Donations: <a class='me-1' href='/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f'><span id='spanDonateAddress' runat='server'>0x71c765...d8976f</span></a> <i class='fas fa-heart text-danger'></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Copyright Content -->
+        </div>
+        </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <!-- Cookie Alert -->
+    <div id="masterDivCookie">
+        <div class="fixed-bottom text-center" id="divcookie" style="display: none;">
+            <div class="alert alert-light fade show border shadow-sm d-inline-flex flex-wrap flex-sm-nowrap align-items-sm-center text-start gap-3 mx-3" role="alert">
+                <p class="text-dark mb-0">
+                    <i class="far fa-cookie-bite text-muted"></i> This website <a href="/terms#cookiestatement" target="_blank">uses cookies to improve your experience</a>. By continuing to use this website, you agree to its <a href="/terms" target="_blank">Terms</a> and <a href="/privacyPolicy" target="_blank">Privacy Policy</a>.
+                </p>
+                <button id ='btnCookie' type="button" class="btn btn-primary text-nowrap px-4" data-bs-dismiss="alert" aria-label="Close">Got it!</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Cookie Alert -->
+
+    <script src="/assets/vendor/jquery-ui/jquery-ui.min.js?v=25.5.5.1"></script>
+ <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js?v=25.5.5.1"></script>
+ <script src="/assets/vendor/bootstrap/bootstrap.bundle.min.js?v=25.5.5.1"></script>
+
+ <!-- JS Implementing Plugins -->
+ <script src="/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js?v=25.5.5.1"></script>
+ <script src="/assets/vendor/clipboard/dist/clipboard.min.js?v=25.5.5.1"></script>
+
+ <!-- JS Front -->
+ <script src="/assets/js/hs.core.js?v=25.5.5.1"></script>
+ <script src="/assets/js/components/hs.cubeportfolio.js?v=25.5.5.1"></script>
+ <script src="/assets/js/custom/combine-js-bottom2.js?v=25.5.5.1"></script>
+ <script src="/assets/vendor/autocomplete/dist/js/autocomplete.min.js?v=25.5.5.1"></script>
+ <script src="/assets/js/custom/blockchain-search.js?v=25.5.5.1"></script>
+ <!-- JS -->
+ <script src="/assets/js/app.min.js?v=25.5.5.1"></script>
+
+ <!-- JS Init. -->
+    <script>
+        var strSearchBoxSiteToken = 'BEP';
+
+        (function () {
+            // INITIALIZATION OF CLIPBOARD
+            HSCore.components.HSClipboard.init('.js-clipboard');
+
+            let searchAttributes = {
+                'name': 'title',
+                'img': 'img',
+                'rate': 'rate',
+                'address': 'address',
+                'link': 'link',
+                'group': 'group',
+                'groupid': 'groupid',
+                'website': 'website',
+                'is_verified': 'is_checked',
+                'ps': 'ps',
+                'desc': 'desc',
+                'reputation' : 'reputation'
+            }
+
+            blockChainSearchInit({
+                id: 'search-panel',
+                attributes: searchAttributes
+            });
+        })();
+
+
+    </script>
+    <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+            myfn_subscribeNewsletter.startFn("#btnSubscribeNewsletter", "#signupSrEmail")
+        });
+
+        $(document).on('ready', function () {
+
+            // Get offset timezone of enduser and set to cookie
+            const date = new Date();
+            const offsetMinutes = date.getTimezoneOffset();
+            const offsetHours = Math.abs(offsetMinutes / 60);
+            const sign = offsetMinutes > 0 ? '-' : '+';
+            offsetHoursFinal = sign + offsetHours;
+            writeCookie(strSiteName + "_offset_datetime", offsetHoursFinal, 365);
+
+            // initialization of cubeportfolio
+            $.HSCore.components.HSCubeportfolio.init('.cbp');
+
+            const clipboard = new ClipboardJS('.js-clipboard');
+            clipboard.on('success', function (e) {
+                let toolTip = bootstrap.Tooltip.getInstance(e.trigger);
+                var oriTooltip = toolTip._config.originalTitle
+
+                toolTip._config.title = 'Copied!';
+                toolTip.setContent();
+                toolTip.update();
+
+                setTimeout(function () {
+                    toolTip._config.title = oriTooltip;
+                }, 1000);
+            });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        var strSiteName = 'bscscan';
+        var sid = '0f0a31007dd1762f7df0d6106887a5e0';
+        var strGlobal = getCookie(strSiteName + "_switch_age_datetime");
+        var strGlobalFee = sessionStorage.getItem("ShowFee");
+        var strGlobalSlotEpoch = sessionStorage.getItem("ShowSlotEpoch");
+        var cookieconsent = getCookie(strSiteName + "_cookieconsent");
+        var ignoreCopyConfirmation = getCopyAddressConfirmationSetting();
+        var colorHyperLink = '#3498db';
+
+
+if (cookieconsent !== "True" && document.getElementById("divcookie")) {
+    document.getElementById("divcookie").style.display = "block";
+};
+
+
+var ace_editor_theme = 'ace/theme/dawn';
+var ace_editor_theme_dim = 'ace/theme/tomorrow_night_blue';
+var ace_editor_theme_dark = 'ace/theme/tomorrow_night';
+
+var chart_linear_gradient = "{ x1: 0, y1: 0, x2: 0, y2: 1 }";
+var chart_stops = "[ [0, Highcharts.getOptions().colors[0]], [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')] ]";
+var chart_tooltip_color = "";
+var chart_point_color = "";
+var chart_series_color = "";
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        $("#btnCookie").click(function () {
+            $("#divcookie").fadeOut("slow", function () {
+                var d = new Date();
+                d.setTime(d.getTime() + (1095 * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = strSiteName + "_cookieconsent=True" + ";" + expires + ";path=/";;
+            });
+        });
+
+        function handleSearchText(data) {
+            searchAddress = false;
+            if ($("search-panel").val() == "") {
+                $("#hdnSearchText").val("");
+                $("#hdnSearchLabel").val("");
+            }
+        }
+
+        function writeCookie(key, value, days) {
+            var date = new Date();
+            days = days || 365;
+            date.setTime(+ date + (days * 86400000));
+            window.document.cookie = key + "=" + value + "; expires=" + date.toGMTString() + "; path=/";
+            return value;
+        }
+
+        function setThemeMode(mode) {
+            writeCookie('displaymode', mode);
+        }
+
+        // Note: this function will be called from where need to init the "Copy Address Confirm Modal".
+        function openCopyAddressConfirmModal(address, message) {
+            $("#addressToCopy").text(address);
+            $("#copyAddressConfirmMessage").text(message);
+
+            const clipboard = new ClipboardJS("#btnConfirmCopyAddress");
+            document.getElementById('copyAddressConfirmModal').addEventListener('hidden.bs.modal', event => {
+                clipboard.destroy();
+            });
+
+            const copyAddressConfirmModal = new bootstrap.Modal('#copyAddressConfirmModal', {
+                backdrop: true
+            })
+            copyAddressConfirmModal.show();
+        }
+
+        function saveCopyAddressConfirmationSetting(ignoreCopyConfirmation) {
+            const copyAddressConfirmationSetting = {
+                ignoreCopyConfirmation: ignoreCopyConfirmation,
+                expiresOn: Date.now() + 1000 * 60 * 60 * 24 * 30
+            };
+            localStorage.setItem(strSiteName + "_copyAddressConfirmationSetting", JSON.stringify(copyAddressConfirmationSetting));
+        }
+
+        function getCopyAddressConfirmationSetting() {
+            try {
+                const settings = localStorage.getItem(strSiteName + "_copyAddressConfirmationSetting");
+                if (settings) {
+                    const copyAddressConfirmationSetting = JSON.parse(settings);
+
+                    return copyAddressConfirmationSetting.ignoreCopyConfirmation && copyAddressConfirmationSetting.expiresOn > Date.now();
+                }
+                else {
+                    return false;
+                }
+            } catch (e) {
+                return false;
+            }
+        }
+    </script>
+
+
+
+<script src="/assets/js/custom/web3.min.js?v=0.5.2.3"></script>
+<script src="/assets/js/custom/web3-utils.min.js"></script>
+
+<script src="/assets/js/custom/web3-providers-http.min.js"></script>
+
+<script src="/assets/vendor/web3modal-1.9.8.min.js?v=25.5.5.1"></script>
+<script src="/assets/vendor/walletlink_bundle.js?v=25.5.5.1"></script>
+<script src="/assets/js/custom/coinbase-wallet-sdk.js?v=25.5.5.1"></script>
+<script src="/assets/js/custom/wallet-handling-connect.js?v=25.5.5.1"></script>
+
+<script type="text/javascript">
+    var eth;
+    var objProvider
+    var isTestnet = 'false';
+    var SiteNetID = '56';
+    var SiteNetChainID = '0x38';
+    var SiteNetName = 'BNB Smart Chain Mainnet';
+    var allowErc1155 = 'True';
+
+        ListenProviderList();
+        async function addNetwork(type) {
+
+            if (type === 'web3') {
+                if (typeof ethereum !== 'undefined') {
+                    objProvider = await initweb3walletProvider("MetaMask");
+                    eth = new Web3(objProvider.provider);
+                } else if (typeof web3 !== 'undefined') {
+                    eth = new Web3(web3.givenProvider);
+                } else {
+                    eth = new Web3(ethereum);
+                }
+            }
+
+            if (typeof eth !== 'undefined') {
+                var network = 0;
+                network = await eth.eth.getChainId(); //await eth.eth.net.getId();
+                netID = network.toString();
+                var params;
+                if (netID == SiteNetID) {
+                      alert("BNB Smart Chain Network has already been added to Metamask.");
+    return;
+} else {
+    params = [{
+        chainId: SiteNetChainID,
+        chainName: 'BNB Smart Chain Mainnet',
+        nativeCurrency: {
+            name: 'BNB',
+            symbol: 'BNB',
+            decimals: 18
+        },
+        rpcUrls: ['https://bsc-dataseed1.binance.org/'],
+        blockExplorerUrls: ['https://bscscan.com']
+}]
+                }
+
+                GeneralRequestWithProvider('wallet_addEthereumChain', params, eth.currentProvider)
+                    .then(() => console.log('Success'))
+                    .catch((error) => console.log("Error", error.message));
+            } else {
+                alert('Unable to locate a compatible web3 browser!');
+            }
+        }
+</script>
+
+
+
+    <script src="/assets/highcharts/v/highcharts.js?v=25.5.5.1"></script>
+
+    <script type="text/javascript">
+        var lang_miner = "Validator";
+        var lang_mined_by = "Validated By";
+        var lang_block = "Block";
+        var lang_block_reward = "Block Reward";
+        var lang_sec = "sec";
+        var lang_secs = "secs";
+        var lang_min = "min";
+        var lang_mins = "mins";
+        var lang_from = "From";
+        var lang_to = "To";
+        var lang_amount = "Amount";
+        var lang_tx = "Tx";
+        var lang_bk = "Bk";
+        var lang_ether = "BNB";
+        var lang_txns = "txns";
+        var lang_in_X = "in";
+        var lang_ago = "ago";
+        var lang_secs_ago = "secs ago";
+        var lang_sec_ago = "sec ago";
+        var lang_sec_in = "";
+        var lang_hash = "Hash";
+        var lang_c = "Bsc";
+    </script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('#divTxnHistoryChart').highcharts({
+                chart: {
+                    spacingTop: 10,
+                    spacingBottom: 0,
+                    spacingLeft: 0,
+                    spacingRight: 10,
+                },
+
+                title: {
+                    text: '',
+                    align: 'left',
+                },
+
+                xAxis: {
+                    title: { text: '' },
+                    lineWidth: 0,
+                    minorTickLength: 0,
+                    tickLength: 0,
+                    labels: {
+                        step: 7,
+                    },
+                    categories: [
+                        'May 20','May 21','May 22','May 23','May 24','May 25','May 26','May 27','May 28','May 29','May 30','May 31','Jun 1','Jun 2','Jun 3',
+                    ]
+                },
+
+                yAxis: {
+                    labels: {
+                        enabled: true
+                    },
+                    gridLineWidth: 0,
+                    title: {
+                        text: null
+                    }
+                },
+
+                legend: {
+                    enabled: false
+                },
+
+                credits: {
+                    enabled: false
+                },
+
+                tooltip: {
+                    formatter: function () {
+                        return '<span style="font-size:10px">' + this.point.friendlydate + '</span><br><table class="text-dark"><tr><td style="padding:0">' +
+                                '<span class="text-dark">Transactions: </a></span><b>' + this.point.formattedValue + '</b><br>' +
+    '<br>' + 'Price: ' + this.point.price + ''
+'</td></tr></table>';
+                    }
+                },
+
+                accessibility: {
+                    enabled: false
+                },
+
+                plotOptions: {
+                    series: {
+                        color: '#1e2022',
+                        enableMouseTracking: true,
+                        lineWidth: 1,
+                        shadow: false,
+                        animation: false,
+                        cursor: 'pointer',
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        marker: {
+                            radius: 0
+                        },
+                        point: {
+                            events: {
+                                select: function (e) {
+                                    location.href = 'txs?dt=' + this.options.dt;
+                                }
+                            }
+                        }
+                    },
+                    column: {
+                        pointPadding: 0.1,
+                        borderWidth: 0
+                    }
+                },
+
+                series: [{
+                    name: 'Transactions',
+                    type: 'spline',
+                    data: [{y : 12578921, dt : '1747699200', formattedValue : '12,578,921', friendlydate : 'Tuesday, May 20, 2025', price : '$650.34'  },{y : 14109071, dt : '1747785600', formattedValue : '14,109,071', friendlydate : 'Wednesday, May 21, 2025', price : '$673.02'  },{y : 12859088, dt : '1747872000', formattedValue : '12,859,088', friendlydate : 'Thursday, May 22, 2025', price : '$686.76'  },{y : 12593024, dt : '1747958400', formattedValue : '12,593,024', friendlydate : 'Friday, May 23, 2025', price : '$657.20'  },{y : 12514488, dt : '1748044800', formattedValue : '12,514,488', friendlydate : 'Saturday, May 24, 2025', price : '$668.02'  },{y : 13049646, dt : '1748131200', formattedValue : '13,049,646', friendlydate : 'Sunday, May 25, 2025', price : '$669.73'  },{y : 14305028, dt : '1748217600', formattedValue : '14,305,028', friendlydate : 'Monday, May 26, 2025', price : '$674.39'  },{y : 14384649, dt : '1748304000', formattedValue : '14,384,649', friendlydate : 'Tuesday, May 27, 2025', price : '$687.09'  },{y : 15020208, dt : '1748390400', formattedValue : '15,020,208', friendlydate : 'Wednesday, May 28, 2025', price : '$687.14'  },{y : 15274135, dt : '1748476800', formattedValue : '15,274,135', friendlydate : 'Thursday, May 29, 2025', price : '$674.91'  },{y : 14803322, dt : '1748563200', formattedValue : '14,803,322', friendlydate : 'Friday, May 30, 2025', price : '$655.24'  },{y : 14078937, dt : '1748649600', formattedValue : '14,078,937', friendlydate : 'Saturday, May 31, 2025', price : '$658.38'  },{y : 14159740, dt : '1748736000', formattedValue : '14,159,740', friendlydate : 'Sunday, June 1, 2025', price : '$661.38'  },{y : 15060937, dt : '1748822400', formattedValue : '15,060,937', friendlydate : 'Monday, June 2, 2025', price : '$666.38'  },{y : 16075242, dt : '1748908800', formattedValue : '16,075,242', friendlydate : 'Tuesday, June 3, 2025', price : '$661.79'  },],
+                    allowPointSelect: true,
+                    pointStart: 0
+                }]
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        function setFocus() {
+            if (window.innerWidth > 600)
+                $("input[name=q]").focus();
+        }
+        $(document).ready(function () {
+            //setFocus();
+        });
+    </script>
+
+    <script type="text/javascript">
+        const card1Type = 'LatestBlocks';
+        const card2Type = 'LatestTransactions';
+        const card1AdvancedFilterId = '';
+        const card2AdvancedFilterId = '';
+        const isLoggedIn = 'False';
+
+        let card1TypeTemp = card1Type;
+        let card2TypeTemp = card2Type;
+        let card1AdvancedFilterIdTemp = card1AdvancedFilterId;
+        let card2AdvancedFilterIdTemp = card2AdvancedFilterId;
+
+        $(document).ready(function () {
+
+            if (isLoggedIn === 'False') {
+                $("#checkAdvancedFilter").prop("disabled", "true");
+                $("#checkAdvancedFilterInputWrapper").attr("data-bs-toggle", "tooltip");
+                $("#checkAdvancedFilterInputWrapper").attr("data-bs-title", `To use this feature, please login to your ${strSiteName} account`);
+                $("#checkAdvancedFilterInputWrapper").tooltip();
+            }
+
+            const customizeCardModalElement = document.getElementById('customizeCardModal');
+            const customizeCardModal = bootstrap.Modal.getOrCreateInstance(customizeCardModalElement);
+            customizeCardModalElement.addEventListener('show.bs.modal', function (event) {
+                const button = event.relatedTarget;
+                const cardIndex = parseInt(button.getAttribute('data-bs-card-index'));
+
+                if (cardIndex === 1) {
+                    $(`input[name='checkCustomOption'][value='${card1Type}']`).prop('checked', true);
+                }
+                else if (cardIndex === 2) {
+                    $(`input[name='checkCustomOption'][value='${card2Type}']`).prop('checked', true);
+                }
+
+                $(`input[name='checkCustomOption']`).off('change').on('change', function (event) {
+                    if (cardIndex === 1) {
+                        card1TypeTemp = $(this).val();
+
+                        if (card1TypeTemp === "AdvancedFilters") {
+                            customizeCardModal.hide();
+                            $(`#card1AdvancedFilterListButton`).trigger("click");
+                        }
+                    }
+                    else if (cardIndex === 2) {
+                        card2TypeTemp = $(this).val();
+
+                        if (card2TypeTemp === "AdvancedFilters") {
+                            customizeCardModal.hide();
+                            $(`#card2AdvancedFilterListButton`).trigger("click");
+                        }
+                    }
+                });
+
+                $("#btnSaveCardType").off('click').on('click', function (event) {
+                    if (cardIndex === 1) {
+                        writeCookie(`${strSiteName}_homepage_card_${cardIndex}`, card1TypeTemp);
+                    }
+                    else if (cardIndex === 2) {
+                        writeCookie(`${strSiteName}_homepage_card_${cardIndex}`, card2TypeTemp);
+                    }
+
+                    customizeCardModal.hide();
+                    reloadWithSpinner();
+                });
+            });
+
+            const advancedFilterListModalElement = document.getElementById('advancedFilterListModal');
+            const advancedFilterListModal = bootstrap.Modal.getOrCreateInstance(advancedFilterListModalElement);
+            advancedFilterListModalElement.addEventListener("show.bs.modal", function (event) {
+                const button = event.relatedTarget;
+                const cardIndex = parseInt(button.getAttribute('data-bs-card-index'));
+                $('label[data-bs-toggle="tooltip"]').tooltip('dispose');
+
+                if (cardIndex === 1) {
+                    hideFlexElement(`#choosenSavedFilter2_wrapper`);
+                    searchAdvancedFilter("", 1);
+                    if (card1AdvancedFilterId !== '') {
+                        $(`input[name='chooseSavedFilter'][value='${card1AdvancedFilterId}']`).prop('checked', true);
+                        showFlexElement(`#choosenSavedFilter1_wrapper`);
+                        showFlexElement(`#divSelectedFilters`);
+                    } else {
+                        hideFlexElement(`#divSelectedFilters`);
+                    }
+                }
+                else if (cardIndex === 2) {
+                    hideFlexElement(`#choosenSavedFilter1_wrapper`);
+                    searchAdvancedFilter("", 2);
+                    if (card2AdvancedFilterId !== '') {
+                        $(`input[name='chooseSavedFilter'][value='${card2AdvancedFilterId}']`).prop('checked', true);
+                        showFlexElement(`#choosenSavedFilter2_wrapper`);
+                        showFlexElement(`#divSelectedFilters`);
+                    } else {
+                        hideFlexElement(`#divSelectedFilters`);
+                    }
+                }
+
+                $(`input[name='chooseSavedFilter']`).off('change').on('change', function (event) {
+                    if (cardIndex === 1) {
+                        card1AdvancedFilterIdTemp = $(this).val();
+                    }
+                    else if (cardIndex === 2) {
+                        card2AdvancedFilterIdTemp = $(this).val();
+                    }
+                    $(`#btnSaveAdvancedFilterCard`).removeAttr("disabled");
+                });
+
+                $("#btnSaveAdvancedFilterCard").off('click').on('click', function (event) {
+                    if (cardIndex === 1) {
+                        writeCookie(`${strSiteName}_homepage_card_${cardIndex}`, card1TypeTemp);
+                        writeCookie(`${strSiteName}_homepage_advanced_filter_card_${cardIndex}`, card1AdvancedFilterIdTemp);
+                    }
+                    else if (cardIndex === 2) {
+                        writeCookie(`${strSiteName}_homepage_card_${cardIndex}`, card2TypeTemp);
+                        writeCookie(`${strSiteName}_homepage_advanced_filter_card_${cardIndex}`, card2AdvancedFilterIdTemp);
+                    }
+
+                    advancedFilterListModal.hide();
+                    reloadWithSpinner();
+                });
+
+                var searchSavedFiltersTimeOut;
+                $(`#txtSearchSavedFilters`).val("");
+                $(`#txtSearchSavedFilters`).off("keyup").on("keyup", function (event) {
+                    if (searchSavedFiltersTimeOut) {
+                        clearTimeout(searchSavedFiltersTimeOut)
+                    }
+
+                    var searchTerm = $(this).val();
+                    searchSavedFiltersTimeOut = setTimeout(function () {
+                        searchAdvancedFilter(searchTerm, cardIndex);
+                    }, 350);
+                });
+            });
+
+
+            $('.show-hide-column-checkbox').change(function () {
+                const columnClass = $(this).data('column');
+                const cardIndex = $(this).data("card");
+
+                if (this.checked) {
+                    $(columnClass).show();
+                }
+                else {
+                    $(columnClass).hide();
+                }
+
+                updateShowHideColumns(cardIndex);
+                updateFirstColumnPadding(cardIndex);
+            });
+
+            initAdvancedFilterCards();
+        });
+
+        function searchAdvancedFilter(searchTerm, cardIndex) {
+            if (searchTerm === null || searchTerm === undefined || searchTerm === "") {
+                searchTerm = "";
+            }
+            else if (searchTerm && searchTerm.trim().length < 3) {
+                return;
+            }
+            $.ajax({
+                type: 'Get',
+                url: '/advancedFilterHandler.ashx',
+                data: {
+                    opr: 'getSavedFilters',
+                    sid: sid,
+                    t: searchTerm,
+                    id1: card1AdvancedFilterId,
+                    id2: card2AdvancedFilterId
+                },
+                success: function (res) {
+                    if (res) {
+                        $(`#divAdvancedFilterList`).html(res);
+                        $('label[data-bs-toggle="tooltip"]').tooltip();
+                        $(`input[name='chooseSavedFilter']`).off('change').on('change', function (event) {
+                            if (cardIndex === 1) {
+                                card1AdvancedFilterIdTemp = $(this).val();
+                            }
+                            else if (cardIndex === 2) {
+                                card2AdvancedFilterIdTemp = $(this).val();
+                            }
+                            $(`#btnSaveAdvancedFilterCard`).removeAttr("disabled");
+                        });
+                    } else {
+                        $(`#divAdvancedFilterList`).html(`<div class="alert alert-danger m-3">There is an error occur. Please try again later!</div>`);
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    $(`#divAdvancedFilterList`).html(`<div class="alert alert-danger m-3">There is an error occur. Please try again later!</div>`);
+                }
+            });
+        }
+
+        function initAdvancedFilterCards() {
+            if (card1Type === "AdvancedFilters") {
+                const advIdCookie = getCookie(`${strSiteName}_homepage_advanced_filter_card_1`);
+                if (advIdCookie != null && advIdCookie != undefined && advIdCookie != '') {
+                    checkShowHideColumns("1");
+                    updateFirstColumnPadding("1");
+                    showFlexElement(`#card1AdvancedFilterListButton`);
+                }
+            }
+            if (card2Type === "AdvancedFilters") {
+                const advIdCookie = getCookie(`${strSiteName}_homepage_advanced_filter_card_2`);
+                if (advIdCookie != null && advIdCookie != undefined && advIdCookie != '') {
+                    checkShowHideColumns("2");
+                    updateFirstColumnPadding("2");
+                    showFlexElement(`#card2AdvancedFilterListButton`);
+                }
+            }
+        }
+
+        const showhideColumnStorageKey = 'hompage_adv_showhide_columns';
+        function checkShowHideColumns(cardIndex) {
+            try {
+                const storageKey = `${strSiteName}_card${cardIndex}_${showhideColumnStorageKey}`;
+                const localStorageValue = localStorage.getItem(storageKey);
+                if (localStorageValue) {
+                    const localShowHideColumns = JSON.parse(localStorageValue);
+                    $.each(localShowHideColumns, function (key, value) {
+                        const showHideColumnOption = $(`input[data-column="${key}"]`);
+                        showHideColumnOption[0].checked = value;
+
+                        if (value == true) {
+                            $(key).show();
+                        } else {
+                            $(key).hide();
+                        }
+                    });
+                }
+            } catch (e) {
+            }
+        }
+
+        function updateShowHideColumns(cardIndex) {
+            const showHideColumns = {};
+            const showhideColumnsCheckbox = document.querySelectorAll('.show-hide-column-checkbox');
+            showhideColumnsCheckbox.forEach(item => {
+                if ($(item).data("card") === cardIndex) {
+                    const columnKey = $(item).data('column');
+                    showHideColumns[columnKey] = item.checked;
+                }
+            });
+
+            const storageKey = `${strSiteName}_card${cardIndex}_${showhideColumnStorageKey}`;
+            localStorage.setItem(storageKey, JSON.stringify(showHideColumns));
+        }
+
+        function updateFirstColumnPadding(cardIndex) {
+            $(`table.card${cardIndex} tr`).find("th").removeClass("ps-4");
+            $(`table.card${cardIndex} tr`).find("td").removeClass("ps-4");
+
+            if ($(`.card${cardIndex}_advFilterTxHash`).is(":visible") === false) {
+                $(`table.card${cardIndex} tr`).find("th:visible:first").addClass("ps-4");
+                $(`table.card${cardIndex} tr`).find("td:visible:first").addClass("ps-4");
+            }
+        }
+
+        function reloadWithSpinner() {
+            $(`#mainOverlay`).show();
+            $(`#cardSpinnerWrapper`).show();
+            window.location.reload();
+        }
+
+        function showFlexElement(selector) {
+            if ($(selector).length) {
+                $(selector).removeClass("d-none");
+            }
+        }
+
+        function hideFlexElement(selector) {
+            if ($(selector).length) {
+                $(selector).addClass("d-none");
+            }
+        }
+    </script>
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94ab30124a4f9277',t:'MTc0OTA3OTUwOS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+    at parseJsonResponse (D:\ato-protocol\ato-role-check\node_modules\hardhat\src\internal\util\jsonrpc.ts:47:11)
+    at HttpProvider._fetchJsonRpcResponse (D:\ato-protocol\ato-role-check\node_modules\hardhat\src\internal\core\providers\http.ts:246:31)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at HttpProvider.request (D:\ato-protocol\ato-role-check\node_modules\hardhat\src\internal\core\providers\http.ts:104:29)
+    at staticCallResult (D:\ato-protocol\node_modules\ethers\src.ts\contract\contract.ts:337:22)
+    at staticCall (D:\ato-protocol\node_modules\ethers\src.ts\contract\contract.ts:303:24)
+    at Proxy.hasRole (D:\ato-protocol\node_modules\ethers\src.ts\contract\contract.ts:351:41)
+    at main (D:\ato-protocol\ato-role-check\scripts\check-roles.js:30:22)
+
+D:\ato-protocol\ato-role-check>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

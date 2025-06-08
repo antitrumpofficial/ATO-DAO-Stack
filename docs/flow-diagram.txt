@@ -1,0 +1,36 @@
+                                        ┌───────────────────────────────────────────┐
+                                        │     AI Oracle & AI Risk Engine Layer     │
+                                        └───────────────────────────────────────────┘
+                                                      ▲
+                        ┌───────────────────────────────────────────────────────────────┐
+                        │       AI Guardian & Arbitration Council Layer                 │
+                        │  (Dispute Resolution + Circuit Breaker + AI Compliance)       │
+                        └───────────────────────────────────────────────────────────────┘
+                                                      ▲
+                        ┌───────────────────────────────────────────────────────────────┐
+                        │     DAO Governance Engine (Snapshot + Dynamic Quorum)         │
+                        │     (Proposal Lifecycle, Voting Flow, Delegation Support)     │
+                        └───────────────────────────────────────────────────────────────┘
+                                                      ▲
+                        ┌───────────────────────────────────────────────────────────────┐
+                        │ Sentiment Analysis & Voting Score Enforcer (AI Weighted)      │
+                        └───────────────────────────────────────────────────────────────┘
+                                                      ▲
+        ┌────────────────────┬─────────────────────────────┬──────────────────────────────┐
+        │ Treasury Manager   │  Proposal Executor Engine    │     NGO Fund Manager         │
+        │ (Multisig + AI)    │  (On-chain + Snapshot Exec) │     (DAO Controlled AI Risk) │
+        └────────────────────┴─────────────────────────────┴──────────────────────────────┘
+                         ▲                   ▲                     ▲
+       ┌────────────────────────────────────────────────────────────────────────────────────┐
+       │         Staking Engine        │     Referral & Growth Engine      │ Civic NFT Layer │
+       │   (Flexible Pools + NFT Boost)│ (DAO-Controlled + AI Abuse Watch)│ (Proof of Impact)│
+       └───────────────────────────────┴───────────────────────────────────┴──────────────────┘
+                                                      ▲
+                              ┌──────────────────────────────────────────┐
+                              │   ATO Token Core Contract (UUPS Proxy)   │
+                              │ DAO Controlled + AI Hook + Reflection    │
+                              └──────────────────────────────────────────┘
+                                                      ▲
+                              ┌──────────────────────────────────────────┐
+                              │          Users & DApps Interface         │
+                              └──────────────────────────────────────────┘

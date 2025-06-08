@@ -1,0 +1,19 @@
+Enhanced MIT License
+Copyright © 2025 Anti Trump Official (ATO)
+
+Permission is hereby granted, free of charge, to any person or entity obtaining a copy of this software and associated documentation (the "Software"), to utilize, copy, modify, merge, publish, distribute, sublicense, deploy, and/or sell copies of the Software, and to permit persons or entities to whom the Software is furnished to do so, subject explicitly to the following conditions:
+
+1. Attribution Clause:
+   Any distribution, modification, or derivative work of the Software must explicitly and prominently attribute the original work to "Anti Trump Official (ATO)" with a clear link to the official ATO project repository or website (https://www.antitrumpofficial.com).
+
+2. Transparency and Openness Clause:
+   Any derivative, fork, or modification must remain open-source, publicly accessible, and maintain this same license or a more restrictive variant thereof.
+
+3. Non-Endorsement Clause:
+   The use of the Software or any derivatives does not imply any endorsement by Anti Trump Official (ATO). Users must not use the names, trademarks, logos, or brand assets of ATO without explicit written consent from the DAO Licensing Council.
+
+THE SOFTWARE IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, SECURITY, OR ERROR-FREE PERFORMANCE. IN NO EVENT SHALL ANTI TRUMP OFFICIAL (ATO), ITS CONTRIBUTORS, OR AFFILIATES BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE, ITS USE OR MISUSE, OR ANY OTHER DEALINGS IN THE SOFTWARE.
+
+For inquiries, permission requests, or further legal information, please contact the DAO Legal Council:
+📧 legal@antitrumpofficial.com
+🌐 https://www.antitrumpofficial.com/legal

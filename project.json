@@ -1,0 +1,31 @@
+{
+  "project_name": "Anti Trump Official (ATO)",
+  "version": "1.0.0",
+  "author": "ATO Core Dev Council",
+  "release_date": "2025-08-01",
+  "dao_activation_date": "2025-10-01",
+  "blockchain": "BNB Smart Chain",
+  "token_symbol": "ATO",
+  "total_supply": 300000000,
+  "modules": [
+    "Token",
+    "Staking",
+    "Referral",
+    "CivicNFT",
+    "NGOFund",
+    "Treasury",
+    "AIGuardian",
+    "ArbitrationCouncil"
+  ],
+  "governance": {
+    "snapshot_enabled": true,
+    "multisig_treasury": true,
+    "ai_guardian_layer": true
+  },
+  "audit_status": {
+    "slither": "pass",
+    "manual_review": "in-progress",
+    "external_audit": "scheduled for Q3 2025"
+  },
+  "repository": "https://github.com/antitrumpofficial/ato-protocol"
+}

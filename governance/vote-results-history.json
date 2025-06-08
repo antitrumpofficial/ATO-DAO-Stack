@@ -1,0 +1,41 @@
+{
+  "lastUpdated": "2025-06-02",
+  "voteHistory": [
+    {
+      "proposalId": "ATO-DAO-2025-001",
+      "title": "Activate AI Hook for Proposal Screening",
+      "snapshotBlock": 41270440,
+      "totalVotes": 14543000,
+      "yesVotes": 13789450,
+      "noVotes": 753550,
+      "result": "Passed"
+    },
+    {
+      "proposalId": "ATO-DAO-2025-002",
+      "title": "Add NGO: CleanWater.org",
+      "snapshotBlock": 41271213,
+      "totalVotes": 11925000,
+      "yesVotes": 9900000,
+      "noVotes": 2025000,
+      "result": "Rejected (Quorum not met)"
+    },
+    {
+      "proposalId": "ATO-DAO-2025-003",
+      "title": "Enable NFT Civic Reputation Multiplier",
+      "snapshotBlock": 41272197,
+      "totalVotes": 14178500,
+      "yesVotes": 13600000,
+      "noVotes": 578500,
+      "result": "Passed"
+    },
+    {
+      "proposalId": "ATO-DAO-2025-004",
+      "title": "Disburse 50K to CleanWater.org (Africa Division)",
+      "snapshotBlock": 41273453,
+      "totalVotes": 15422000,
+      "yesVotes": 14990000,
+      "noVotes": 432000,
+      "result": "Passed"
+    }
+  ]
+}

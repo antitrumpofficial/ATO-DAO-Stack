@@ -1,0 +1,42 @@
+# .github/workflows/ci.yml
+
+name: ATO Smart Contract CI/CD
+
+description: Compile, test, lint, and report coverage for ATO Protocol
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Compile Contracts
+        run: npx hardhat compile
+
+      - name: Run Unit Tests
+        run: npx hardhat test
+
+      - name: Run Solhint Linter
+        run: npx solhint 'contracts/**/*.sol'
+
+      - name: Run Gas Usage Report
+        run: npx hardhat test --network hardhat --show-stack-traces
+
+      - name: Run Test Coverage
+        run: npx hardhat coverage
