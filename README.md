@@ -12,18 +12,38 @@
 
 ---
 
-##  Official Links
+## Official Links
 
 - **Website:** [antitrumpofficial.com](https://antitrumpofficial.com)
 - **GitHub:** [github.com/antitrumpofficial](https://github.com/antitrumpofficial)
 - **Snapshot DAO Voting:** [snapshot.org/#/ato.eth](https://snapshot.org/#/ato.eth)
 - **Proposal Submission:** [dao.antitrumpofficial.com/submit](https://dao.antitrumpofficial.com/submit)
+
+---
+
+## Social Media
+
 - **X (Twitter):** [@ATO_Protocol](https://x.com/ATO_Protocol)
 - **Reddit:** [r/ATO_Protocol](https://www.reddit.com/r/ATO_Protocol/)
 - **Discord:** [Join Discord](https://discord.gg/Zaf75W3J)
 - **Telegram:** [AntiTrumpOfficial](https://t.me/AntiTrumpOfficial)
-- **Contact (DAO):** [dao@antitrumpofficial.com](mailto:dao@antitrumpofficial.com)
-- **Contact (Info):** [info@antitrumpofficial.com](mailto:info@antitrumpofficial.com)
+
+---
+
+## Contact Emails
+
+- **Info:** [info@antitrumpofficial.com](mailto:info@antitrumpofficial.com)
+- **DAO:** [dao@antitrumpofficial.com](mailto:dao@antitrumpofficial.com)
+- **Security:** [security@antitrumpofficial.com](mailto:security@antitrumpofficial.com)
+- **Legal:** [legal@antitrumpofficial.com](mailto:legal@antitrumpofficial.com)
+- **Partners:** [partners@antitrumpofficial.com](mailto:partners@antitrumpofficial.com)
+
+---
+
+## Documentation
+
+- **Whitepaper (PDF):** [docs/ATO_Whitepaper.pdf](docs/ATO_Whitepaper.pdf)
+- **All Documentation:** [docs/](docs/)
 
 ---
 
